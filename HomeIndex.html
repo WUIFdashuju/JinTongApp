@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HomeIndex</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/HomeIndex.css">
+    <link rel="stylesheet" href="css/swiper-4.3.5.min.css">
+</head>
+<body>
+<script src="js/swiper-4.3.5.min.js"></script>
+    <div class="header">
+        <div class="top">
+            <div class="back">
+
+            </div>
+            <div class="title">晋彤</div>
+        </div>
+        <div class="bottom">
+            <div class="left">
+                太原
+            </div>
+            <div class="right">
+                <input type="text" placeholder="搜索您需要的服务 商品">
+                <div class="search"></div>
+            </div>
+        </div>
+    </div>
+    <div class="banner">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="img/banner1.png"></div>
+                <div class="swiper-slide">Slide 2</div>
+                <div class="swiper-slide">Slide 3</div>
+            </div>
+            <!-- 如果需要分页器 -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    <div class="son">
+        <ul class="one">
+            <li>
+                <img src="img/cxson1.png" alt="">
+                <p>水路综合</p>
+            </li>
+            <li>
+                <img src="img/cxson2.png" alt="">
+                <p>水管维修</p>
+            </li>
+            <li>
+                <img src="img/cxson3.png" alt="">
+                <p>管道维修</p>
+            </li>
+        </ul>
+        <ul class="two">
+            <li>
+                <img src="img/cxson4.png" alt="">
+                <p>龙头维修</p>
+            </li>
+            <li>
+                <img src="img/cxson5.png" alt="">
+                <p>地漏疏通</p>
+            </li>
+            <li>
+                <img src="img/cxson6.png" alt="">
+                <p>阀门维修</p>
+            </li>
+        </ul>
+        <ul class="three">
+
+            <li>
+                <img src="img/cxson7.png" alt="">
+                <p>下水道疏通</p>
+            </li>
+            <li>
+                <img src="img/cxson8.png" alt="">
+                <p>其他</p>
+            </li>
+            <li style="">
+                <img style="background-color: #ffffff" src="" alt="">
+                <!--<p>水路综合</p>-->
+            </li>
+        </ul>
+    </div>
+    <div class="footer">
+        <ul>
+            <li>
+                <i class=""></i>
+                <a>首页</a>
+            </li>
+            <li>
+                <i class=""></i>
+                <a>商城</a>
+            </li>
+            <li>
+                <i class=""></i>
+                <a>入住</a>
+            </li>
+            <li>
+                <i class=""></i>
+                <a>订单</a>
+            </li>
+            <li>
+                <i class=""></i>
+                <a>我的</a>
+            </li>
+        </ul>
+    </div>
+<script>
+    var mySwiper = new Swiper ('.swiper-container', {
+        // direction: 'vertical', // 垂直切换选项
+        loop: true, // 循环模式选项
+
+        // 如果需要分页器
+        pagination: {
+            el: '.swiper-pagination',
+        },
+
+    })
+</script>
+</body>
+</html>

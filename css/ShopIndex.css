@@ -1,0 +1,322 @@
+.header {
+    height: 1.88rem;
+    background-color: #fbfeff;
+    box-shadow:0 6px 21px 0 rgba(41, 167, 255, 0.13);
+    padding-top: 0.25rem;
+    padding-left: 0.24rem;
+    padding-right: 0.24rem;
+    margin-bottom: 0.49rem;
+    position: fixed;
+    top: 0;
+    width: 7.5rem;
+}
+.header .top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .top .back{
+    width: 0.25rem;
+    height: 0.42rem;
+    background-color: #4ebbfe;
+}
+.header .top .title{
+    height: 0.36rem;
+    font-size: 0.38rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.40rem;
+    letter-spacing: 0.02rem;
+    color: #4ebbfe;
+    margin: 0 auto;
+    text-align: center;
+    padding-left: 0.58rem;
+}
+.header .top .more{
+    width: 0.45rem;
+}
+.header .top .more ul {
+    display: flex;
+    justify-content: space-between;
+}
+.header .top .more ul li{
+    width: 0.08rem;
+    height: 0.08rem;
+    border-radius: 50%;
+    background-color: #36a8fe;
+}
+.header .bottom{
+    margin-top: 0.52rem;
+}
+.header .bottom ul{
+    display: flex;
+    justify-content: space-around;
+    margin: 0.2rem 1.4rem 0;
+}
+.header .bottom ul li{
+    font-size: 0.22rem;
+    width: 1.33rem;
+    height: 0.52rem;
+    line-height: 0.52rem;
+    color: #3bacfe;
+    background-color: rgba(59,172,254,0.1);
+    border-radius: 0.26rem;
+    text-align: center;
+}
+.header .bottom ul li.active{
+    background-color: rgba(59,172,254,0.8);
+    box-shadow: 0 0.05rem 0.12rem 0
+    rgba(59, 172, 254, 0.43);
+    border-radius: 0.26rem;
+    color: #ffffff;
+
+}
+.son{
+    height: 2.55rem;
+    padding-left: 0.24rem;
+    padding-right: 0.24rem;
+}
+.son ul{
+    display: flex;
+    justify-content: space-around;
+}
+.son ul li{
+    text-align: center;
+}
+.son ul li img{
+}
+.son ul li p{
+    height: 0.23rem;
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.4rem;
+    letter-spacing: 0.01rem;
+    color: #8e9397;
+}
+.title{
+    padding-left: 0.24rem;
+    padding-right: 0.24rem;
+}
+.title span{
+    height: 0.32rem;
+    font-size: 0.32rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.4rem;
+    letter-spacing: 0.02rem;
+}
+.BigBox{
+    padding-left: 0.24rem;
+    padding-right: 0.24rem;
+    margin-top: 0.32rem;
+}
+.BigBox ul.menu  li{
+    height: 1.97rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.32rem;
+}
+.BigBox .menu .left{
+    width: 1.97rem;
+    height: 1.97rem;
+    box-shadow: 0 0.01rem 0.21rem 0 rgba(223, 223, 223, 0.43);
+    border-radius: 0.1rem;
+    background-color:#ffffff;
+    padding-top: 0.3rem;
+}
+.BigBox .menu .left img{
+
+    width: 1.2rem;
+    height: 1.4rem;
+    margin: 0 auto;
+}
+.BigBox .menu .right{
+    width: 4.78rem;
+    height: 1.97rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.BigBox .menu .right .title1{
+    height: 0.29rem;
+    font-size: 0.3rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #000000;
+    opacity: 0.6;
+}
+.BigBox .menu .right .title2{
+    height: 0.32rem;
+    font-size: 0.22rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.32rem;
+    letter-spacing: 0.01rem;
+    color: #000000;
+    opacity: 0.3;
+    margin: 0.15rem 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.BigBox .menu .right hr{
+    width: 4.76rem;
+    height: 0.01rem;
+    background-color: #d8dfe3;
+    opacity: 0.3;
+}
+.BigBox .menu .right .title3{
+    display: flex;
+    justify-content: space-between;
+}
+.BigBox .menu .right .title3 .valutare,.BigBox .menu .right .title3 .sale{
+    font-size: 0.2rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color:rgba(0,0,0,0.3);
+}
+.BigBox .menu .right .title3 span{
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #36a8fe;
+    opacity: 1;
+}
+.BigBox .menu .right .title4{
+    display: flex;
+}
+.BigBox .menu .right .title4 .logo img{
+    width: 0.3rem;
+    height: 0.3rem;
+}
+.BigBox .menu .right .title4 .name{
+    font-size: 0.2rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #cfcfcf;
+    margin-left: 0.08rem;
+}
+.footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    height: 1rem;
+    background-color: #f1f9ff;
+}
+.footer ul {
+    display: flex;
+    justify-content: space-around;
+}
+.footer ul li{
+    height: 0.9rem;
+    width: 0.51rem;
+}
+.footer ul li i{
+
+}
+.footer ul li a{
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.4rem;
+    letter-spacing: 0.01rem;
+    color: #59c3fe;
+}
+.bagno{
+    padding: 0 0.24rem 0;
+    margin-top: 2.37rem;
+    padding-bottom: 2rem;
+}
+.bagno>img{
+    width: 7rem;
+    height: 2.6rem;
+    border-radius: 0.1rem;
+}
+.bagno .title{
+    margin-top: 0.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bagno .title .left{
+    font-size: 0.3rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.4rem;
+    letter-spacing: 0;
+}
+.bagno .title .right{
+    font-size: 0.2rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #3bacfe;
+}
+.bagno .goods{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.bagno .goods li{
+    width: 3.2rem;
+}
+.bagno .goods li .text1 img{
+    margin: 0.7rem auto 0.4rem;
+}
+.bagno .goods li .text2{
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.3rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color:rgba(0,0,0,1);
+}
+.bagno .goods li .text3{
+    font-size: 0.2rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color:rgba(0,0,0,0.5);
+}
+.bagno .goods li hr{
+
+}
+.bagno .goods li .text4{
+    display: flex;
+    justify-content: space-between;
+    margin: 0.2rem auto 0.2rem;
+}
+.bagno .goods li .text4 .sale,.bagno .goods li .text4 .order{
+    font-size: 0.2rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: rgba(0,0,0,0.3);
+}
+.bagno .goods li .text4 span{
+    font-size: 0.3rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #36a8fe;
+}
+.bagno .goods li .text5{
+    display: flex;
+    justify-content: left;
+}
+.bagno .goods li .text5 .valutare{
+    width: 1.2rem;
+    height: 0.4rem;
+    font-size: 0.2rem;
+    line-height: 0.4rem;
+    text-align: center;
+    background-color: rgba(59,171,255,0.1);
+    border-radius: 0.2rem;
+    color: #36a8fe;
+}
