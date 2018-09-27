@@ -1,0 +1,129 @@
+.header {
+    height: 1.65rem;
+    background-color: #fbfeff;
+    box-shadow:0 6px 21px 0 rgba(41, 167, 255, 0.13);
+    padding-top: 0.25rem;
+    position: relative;
+    padding-left: 0.24rem;
+    padding-right: 0.24rem;
+}
+.header .top .back{
+    position: absolute;
+    width: 0.25rem;
+    height: 0.42rem;
+    background-color: #4ebbfe;
+}
+.header .top .title{
+    height: 0.36rem;
+    font-size: 0.38rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.40rem;
+    letter-spacing: 0.02rem;
+    color: #4ebbfe;
+    margin: 0 auto;
+    text-align: center;
+}
+.header .bottom{
+    display: flex;
+    margin-top: 0.27rem;
+}
+.header .bottom .left{
+    width: 1.12rem;
+    height: 0.6rem;
+    font-size: 0.28rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.60rem;
+    letter-spacing: 0.01rem;
+    color: #36a8fe;
+}
+.header .bottom .right{
+    position: relative;
+}
+.header .bottom .right input{
+    width: 5.93rem;
+    height: 0.60rem;
+    background-color: #ebf7ff;
+    border-radius: 0.30rem;
+    border: solid 0.03rem rgba(55, 169, 254, 0.17);
+    opacity: 0.58;
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.40rem;
+    letter-spacing: 0.01rem;
+    color: #c8d9e6;
+    padding:0 0.3rem 0;
+}
+.header .bottom .right .search{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin:  auto ;
+    right: 0.3rem;
+    background-color: #4ebbfe;
+    width: 0.37rem;
+    height: 0.38rem;
+    box-shadow: 0 0.03rem 0.10rem 0    rgba(127, 211, 161, 0.45);
+    opacity: 0.71;
+}
+.banner{
+    height: 3rem;
+}
+.swiper-container {
+    height: 3rem;
+}
+.son{
+    height: 7.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.son ul {
+    display: flex;
+    justify-content: space-around;
+}
+.son ul li img{
+    /*display: block;*/
+    width: 1.13rem;
+    height: 1.13rem;
+    border-radius: 50%;
+}
+.son ul li p{
+    text-align: center;
+    height: 0.23rem;
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.4rem;
+    letter-spacing: 0.01rem;
+    color: #8e9397;
+}
+.footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    height: 1rem;
+    background-color: #f1f9ff;
+    opacity: 0.5;
+}
+.footer ul {
+    display: flex;
+    justify-content: space-around;
+}
+.footer ul li{
+    height: 0.9rem;
+    width: 0.51rem;
+}
+.footer ul li i{
+
+}
+.footer ul li a{
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.4rem;
+    letter-spacing: 0.01rem;
+    color: #59c3fe;
+}
