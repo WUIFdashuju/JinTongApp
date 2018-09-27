@@ -1,0 +1,143 @@
+/*顶部开始*/
+.title{
+    width:100%;
+    height: 1rem;
+    line-height: 1rem;
+    display: flex;
+    align-items: center;
+    padding: 0 0.24rem;
+    box-shadow: 0 0 2rem 0.05rem rgba(41,167,255,0.13);
+}
+.title img{
+    width: 0.4rem;
+    height: 0.4rem;
+    margin-left:0.2rem;
+}
+.title h2{
+    font-size:0.36rem;
+    font-weight: 500;
+    margin-left:2.8rem;
+    color:#4ebbfe;
+}
+/*内容部分开始*/
+main{
+    width: 100%;
+    margin-top: 0.45rem;
+    padding:0 0.32rem;
+}
+main .pHead{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.04rem;
+}
+main .pHead .pYhqT{
+    width: 1.33rem;
+    height: 0.52rem;
+    color: #3bacfe;
+    background: #e7f6ff;
+    line-height: 0.52rem;
+    text-align: center;
+    border-radius: 0.25rem;
+}
+main .pHead .active{
+    background: #3bacfe;
+    color: #fff;
+    box-shadow: 0 0.02rem 0.1rem 0.02rem #6fc1fd;
+}
+main .pCont .pColorB{
+    width: 100%;
+    height: 1.83rem;
+    border-radius: 0.1rem;
+    background: linear-gradient(to right, #27d29c, #33e171);
+    padding: 0.2rem 0.23rem;
+    margin-top: 0.32rem;
+}
+main .pCont .pColorBf{
+    background: linear-gradient(to right, #34a3f8, #3fdef1 );
+}
+main .pCont .pColorBt{
+    background: linear-gradient(to right, #ffb637, #ffde47);
+}
+main .pCont .pColorB .pBoxS{
+    width: 100%;
+    height: 0.68rem;
+    display: flex;
+    justify-content: space-between;
+}
+main .pCont .pColorB .pBoxS .pBoxL{
+    height: 100%;
+    padding-top: 0.05rem;
+    display: flex;
+}
+main .pCont .pColorB .pBoxS .pBoxL .pRbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+main .pCont .pColorB .pBoxS .pBoxL .pRbox>h3{
+    font-size: 0.26rem;
+    color: #fff;
+}
+main .pCont .pColorB .pBoxS .pBoxL .pRbox>p{
+    font-size: 0.2rem;
+    color: rgba(255,255,255,0.6);
+}
+main .pCont .pColorB .pBoxS .pBoxR{
+    height: 100%;
+    color: #fbfeff;
+    font-weight: bolder;
+}
+main .pCont .pColorB .pBoxS .pBoxR p{
+    font-size: 0.22rem;
+    margin-top: -0.25rem;
+}
+main .pCont .pColorB .pBoxS .pBoxR p>span{
+    font-family: "San Francisco Display";
+    font-size: 0.94rem;
+}
+main .pCont .pColorB>p{
+    font-size: 0.24rem;
+    color: rgba(255,255,255,0.2);
+}
+main .pCont .pColorB .pBoxX{
+    width: 100%;
+    height: 0.38rem;
+    display: flex;
+    justify-content: space-between;
+}
+main .pCont .pColorB .pBoxX .pBoxXL{
+    display: flex;
+    align-items: center;
+}
+main .pCont .pColorB .pBoxX .pBoxXL .pSmallD{
+    width: 0.05rem;
+    height: 0.05rem;
+    border-radius: 50%;
+    background: #fbfeff;
+}
+main .pCont .pColorB .pBoxX .pBoxXL>h6{
+    font-size: 0.2rem;
+    color: rgba(255,255,255,0.6);
+    margin: 0 0.1rem;
+}
+main .pCont .pColorB .pBoxX .pBoxXL>p{
+    font-size: 0.2rem;
+    color: rgba(255,255,255,0.6);
+}
+main .pCont .pColorB .pBoxX .pBoxXR{
+    width: 1.36rem;
+    height: 0.38rem;
+    background: #fbfeff;
+    border-radius: 0.2rem;
+    font-size: 0.2rem;
+    color: #32e074;
+    text-align: center;
+    line-height: 0.38rem;
+    font-weight: bold;
+}
+main .pCont .pColorB .pBoxX .pBoxXRf{
+    color: #38b9f5;
+}
+main .pCont .pColorB .pBoxX .pBoxXRt{
+    color: #ffc33c;
+}
