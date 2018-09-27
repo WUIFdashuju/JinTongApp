@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/rem.css">
+    <link rel="stylesheet" href="css/site_changeCity.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+<!--头部-->
+<header>
+    <div class="headerTop">
+        <img src="img/WHBack.png" alt="">
+        <div class="title">切换城市</div>
+        <div class="title"></div>
+    </div>
+    <div class="headerBottom">
+        <!--搜索表单提交-->
+        <form action="">
+            <img src="img/WHsearch.png" alt="" class="search">
+            <input type="text" onchange="cityChange()" placeholder="搜索您需要定位的城市">
+        </form>
+    </div>
+</header>
+<main>
+    <div class="content">
+        <div class="nowInfo">
+            <div class="line"></div>
+            当前定位城市
+            <span>太原</span>
+        </div>
+    </div>
+    <div class="infoContent">
+        <div class="left">
+            <ul>
+                <li>
+                    <div class="letter">A</div>
+                </li>
+                <li>
+                    <div class="infoDot"></div>
+                    鞍山市
+                </li>
+                <li>
+                    <div class="letter">B</div>
+                </li>
+                <li class="active">
+                    <div class="infoDot"></div>
+                    保定河间市
+                </li>
+                <li class="active">
+                    <div class="infoDot"></div>
+                    保定河间市
+                </li>
+                <li class="active">
+                    <div class="infoDot"></div>
+                    保定河间市
+                </li>
+                <li>
+                    <div class="infoDot"></div>
+                    保定河间市
+                </li>
+            </ul>
+        </div>
+        <div class="right">
+            <p class="active">A</p>
+            <p>B</p>
+            <p>C</p>
+            <p>D</p>
+            <p>E</p>
+            <p>F</p>
+            <p>G</p>
+            <p>H</p>
+            <p>I</p>
+            <p>J</p>
+            <p>K</p>
+            <p>M</p>
+            <p>N</p>
+            <p>O</p>
+            <p>P</p>
+            <p>Q</p>
+            <p>R</p>
+            <p>S</p>
+            <p>T</p>
+            <p>U</p>
+            <p>V</p>
+            <p>W</p>
+            <p>X</p>
+            <p>Y</p>
+            <p>Z</p>
+            <p>#</p>
+        </div>
+    </div>
+</main>
+</body>
+</html>
+<script>
+  let  cityChange=function () {
+      alert(1);
+    }
+
+</script>

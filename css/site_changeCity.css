@@ -1,0 +1,171 @@
+header{
+    width: 7.5rem;
+    height: 2.05rem;
+    padding-top:0.4rem;
+    background-color: #fbfeff;
+    box-shadow: 0 0.03rem 0.43rem 0 rgba(41, 167, 255, 0.13);
+}
+header .headerTop{
+    width: 7.5rem;
+    height: 0.82rem;
+    padding: 0.02rem 0.24rem 0.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .headerTop .title{
+    height: 0.4rem;
+    font-size: 0.38rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.4rem;
+    letter-spacing: 0.02rem;
+    color: #4ebbfe;
+}
+header .headerBottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .headerBottom form{
+    position:relative;
+}
+header .headerBottom form img.search{
+    position: absolute;
+    left:0.18rem;
+    top:0.1rem;
+}
+header .headerBottom form input{
+    width: 7.12rem;
+    height: 0.6rem;
+    background-color: #ebf7ff;
+    border-radius: 0.3rem;
+    border: solid 0.03rem rgba(55, 169, 254, 0.17);
+    opacity: 0.58;
+    padding-left: 0.79rem;
+    outline: none;
+}
+input::-webkit-input-placeholder{
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.4rem;
+    letter-spacing: 0.01rem;
+    color: #c8d9e6;
+}
+main{
+    width: 100%;
+    height:11.29rem;
+}
+main .content{
+    display: flex;
+    justify-content: center;
+}
+main .content .nowInfo{
+    height: 1.33rem;
+    width: 6.96rem;
+    padding-left: 0.25rem;
+    border-bottom: 0.02rem solid rgba(0,0,0,0.05);
+    display: flex;
+    align-items: center;
+    font-size: 0.26rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: rgba(0,0,0,0.4);
+    position: relative;
+}
+main .content .nowInfo span{
+    margin-left: 0.19rem;
+    width: 0.97rem;
+    height: 0.48rem;
+    background-color: rgba(59,171,255,0.1);
+    border-radius: 0.24rem;
+    font-size: 0.26rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #36a8fe;
+    text-align: center;
+    line-height: 0.48rem;
+}
+main .content .nowInfo .line{
+    position: absolute;
+    left:0;
+    width: 0.1rem;
+    height: 0.05rem;
+    background-color: #44b5ff;
+    box-shadow: 0 0.02rem 0.05rem 0 rgba(68, 181, 255, 0.43);
+    border-radius: 0.03rem;
+}
+main .infoContent{
+    width: 7rem;
+    height: 9.94rem;
+    display: flex;
+    justify-content: space-between;
+    margin:0 auto;
+}
+main .infoContent .left{
+    height: 9.94rem;
+    width: 6.51rem;
+    overflow-y: scroll;
+}
+main .infoContent .left ul{
+    width: 6.51rem;
+    height:auto;
+}
+main .infoContent .left ul li{
+    width: 6.51rem;
+    height: 0.81rem;
+    display: flex;
+    align-items: center;
+    font-size: 0.26rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color:rgba(0,0,0,0.4);
+    padding-left:0.21rem;
+    position: relative;
+}
+main .infoContent .left ul li.active{
+    border-bottom: 0.02rem solid rgba(0,0,0,0.02);
+}
+main .infoContent .left ul li .letter{
+    width: 0.43rem;
+    height: 0.43rem;
+    background-color: #36a8fe;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 0.43rem;
+    font-size: 0.28rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #fbfeff;
+    margin-left:-0.21rem;
+    margin-top:0.3rem;
+}
+main .infoContent .left ul li .infoDot{
+    width: 0.08rem;
+    height: 0.08rem;
+    position:absolute;
+    left:0;
+    background-color: #37ce9a;
+    box-shadow: 0 0.02rem 0.05rem 0 rgba(55, 206, 154, 0.43);
+}
+main .infoContent .right{
+    margin-top: 0.38rem;
+    width: 0.18rem;
+    height: 8.98rem;
+}
+main .infoContent .right p{
+    font-size: 0.2rem;
+    font-weight: normal;
+    letter-spacing: 0.02rem;
+    color: #c1c1c1;
+    line-height: 0.34rem;
+    text-align: center;
+}
+main .infoContent .right p.active{
+    color: #36a8fe;
+}
