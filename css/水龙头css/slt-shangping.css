@@ -1,0 +1,234 @@
+.title{
+    width:100%;
+    height: 1rem;
+    line-height: 1rem;
+    display: flex;
+    align-items: center;
+    padding: 0 0.24rem;
+    box-shadow: 0 0.03rem 0.43rem 0
+    rgba(41, 167, 255, 0.13);
+}
+.title img{
+    width: 0.4rem;
+    height: 0.4rem;
+    margin-left:0.2rem;
+}
+.title h2{
+    font-size:0.36rem;
+    font-weight: 500;
+    margin-left:2.5rem;
+    color:#4ebbfe;
+}
+img.slt{
+    width: 3.17rem;
+    height: 3.33rem;
+    margin-top: 1.81rem;
+    margin-left: 1.67rem;
+}
+h3{
+    font-family: PingFangSC-Semibold;
+    font-size: 0.3rem;
+    font-weight: bold;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #000000;
+    opacity: 0.6;
+    margin-top: 1.85rem;
+    margin-left: 0.24rem;
+}
+p.text{
+    margin-left: 0.24rem;
+    margin-right: 0.24rem;
+    margin-top: 0.15rem;
+    font-family: PingFangSC-Semibold;
+    font-size: 0.22rem;
+    font-weight: bold;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #000000;
+    opacity: 0.3;
+}
+.show{
+    margin-top: 0.23rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.24rem;
+}
+.show p{
+    font-family: PingFangSC-Semibold;
+    font-size: 0.26rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #fbb548;
+}
+.show .right{
+    display: flex;
+}
+.show .right  img{
+    width: 0.2rem;
+    height: 0.2rem;
+}
+.show.right  p{
+    font-family: PingFangSC-Semibold;
+    font-size: 0.22rem;
+    font-weight: bold;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #000000;
+    opacity: 0.3;
+}
+.show .right .pf{
+    font-size: 0.26rem;
+    margin-left: 0.12rem;
+    font-family: SanFranciscoDisplay-Bold;
+    font-weight: bold;
+    font-stretch: normal;
+    color: #36a8fe;
+}
+.vip{
+    display: flex;
+    margin-top: 0.55rem;
+    padding: 0 0.24rem;
+}
+.vip .one{
+    width: 0.55rem;
+    height: 0.4rem;
+}
+.vip p{
+    font-family: "苹方";
+    font-size: 0.24rem;
+    font-weight: bold;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #ff844e;
+    margin-left: 0.08rem;
+}
+.vip .juxing{
+    width: 1.84rem;
+    height: 0.39rem;
+    background-image: linear-gradient(270deg,
+    #ffca3b 0%,
+    #ff933b 100%),
+    linear-gradient(
+            #ffc471,
+            #ffc471);
+    background-blend-mode: normal,
+    normal;
+    box-shadow: 0 0.04rem 0.16rem 0
+    rgba(255, 142, 81, 0.3);
+    border-radius: 0.2rem;
+    margin-left: 0.08rem;
+    margin-top: -0.04rem;
+    text-align: center;
+}
+.vip .juxing p{
+    font-family: "苹方";
+    font-size: 0.24rem;
+    font-weight: bold;
+    font-stretch: normal;
+    line-height: 0.4rem;
+    letter-spacing: 0.01rem;
+    color: #fbfeff;
+}
+.bottom{
+    display: flex;
+    width: 100%;
+    height: 0.25rem;
+    padding: 0 0.24rem;
+    margin-top: 0.52rem;
+}
+.bottom .one{
+    display: flex;
+}
+.bottom .one img{
+    width: 0.2rem;
+    height: 0.2rem;
+    margin-top: 0.08rem;
+}
+.bottom .one p{
+    font-family: "苹方";
+    font-size: 0.24rem;
+    font-weight: bold;
+    font-stretch: normal;
+    /*line-height: 40px;*/
+    letter-spacing: 0.01rem;
+    color: #41b2fc;
+}
+.bottom .two{
+    margin-left: 0.8rem;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 1.08rem;
+    background-color: #f1faff;
+    padding: 0 0.24rem;
+    display: flex;
+}
+footer .shop{
+    margin-left: 0.3rem;
+}
+footer .shop img{
+    margin-top: 0.18rem;
+    width: 0.44rem;
+    height: 0.47rem;
+}
+footer .shop p{
+    font-family: "苹方";
+    font-size: 0.2rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #3bacfe;
+    opacity: 0.6;
+    margin-top: 0.07rem;
+    margin-left: 0.02rem;
+}
+footer .shop-two{
+    margin-left: 0.6rem;
+    width: 1rem;
+}
+footer .shop-two img{
+    margin-left: 0.2rem;
+}
+footer .shop-two p{
+    color: #2ed977;
+}
+footer .jiaru{
+    width:1.96rem;
+    height: 0.6rem;
+    /*background-image: linear-gradient(90deg,*/
+    /*#37e06f 0%,*/
+    /*#31d69a 100%),*/
+    /*linear-gradient(*/
+            /*#3bacfe,*/
+            /*#3bacfe);*/
+    background: #37e06f;
+    background-blend-mode: normal,
+    normal;
+    box-shadow: 0 0.04rem 0.2rem 0
+    rgba(55, 223, 116, 0.75);
+    border-radius: 0.3rem;
+    text-align: center;
+    line-height: 0.6rem;
+    margin-left: 0.88rem;
+    margin-top: 0.26rem;
+}
+footer .blue{
+    background-color: #3bacfe;
+    box-shadow: 0 0.05rem 0.12rem 0
+    rgba(59, 172, 254, 0.43);
+    margin-left: 0.4rem;
+}
+footer .jiaru p{
+    font-family: "苹方";
+    font-size: 0.2rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #ffffff;
+}

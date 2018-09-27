@@ -1,0 +1,220 @@
+/*
+* @Author: 123
+* @Date:   2018-09-27 09:58:12
+* @Last Modified by:   123
+* @Last Modified time: 2018-09-27 10:13:57
+*/
+/*顶部开始*/
+
+.title{
+	width:100%;
+	height: 1rem;
+	line-height: 1rem;
+	display: flex;
+	align-items: center;
+	padding: 0 0.24rem;
+}
+.title img{
+	width: 0.4rem;
+	height: 0.4rem;
+	margin-left:0.2rem;
+}
+.title h2{
+	font-size:0.36rem;
+	font-weight: 500;
+	margin-left:2.8rem;
+	color:#4ebbfe;
+}
+.section{
+	box-shadow: 0 0.03rem 0.43rem 0
+	rgba(41, 167, 255, 0.13);
+}
+.sousuo{
+	width: 100%;
+	height: 0.8rem;
+	/*background:yellow;*/
+	padding: 0 0.24rem;
+
+}
+.sousuo .juxin{
+	width: 100%;
+	height: 0.6rem;
+	background-color: #ebf7ff;
+	border-radius: 0.3rem;
+	border: solid 0.03rem rgba(55, 169, 254, 0.17);
+	opacity: 0.58;
+	padding-top: 0.05rem;
+	padding-left: 0.2rem;
+	padding-right: 0.1rem;
+	display:flex;
+	justify-content: space-between;
+}
+.sousuo .juxin input{
+	border:none;
+	outline: none;
+	background: #ebf7ff;
+	opacity: 0.58;
+}
+.sousuo .juxin .click{
+	width: 0.79rem;
+	height: 0.44rem;
+	background-color: #a4e0bd;
+	border-radius: 0.21rem;
+}
+.sousuo .juxin .click img{
+	margin-left: 0.2rem;
+	margin-top: 0.03rem;
+}
+.sm-text{
+	width: 100%;
+	height: 0.32rem;
+	margin-top: 0.44rem;
+	/*background:pink;*/
+	padding: 0 0.2rem;
+	display: flex;
+}
+.sm-text img{
+	margin-top: 0.1rem;
+}
+.sm-text p{
+	font-family: MicrosoftYaHei-Bold;
+	font-size: 0.32rem;
+	font-weight: bold;
+	font-stretch: normal;
+	line-height: 0.4rem;
+	letter-spacing: 0.02rem;
+	color: #4f5b64;
+}
+.sm-text p span{
+	font-size: 0.32rem;
+	font-weight: bold;
+	font-stretch: normal;
+	line-height: 0.4rem;
+	letter-spacing: 0.02rem;
+	color: #41b2fc;
+}
+.content{
+	width: 100%;
+	height: 1.99rem;
+	margin-top: 0.36rem;
+	/*background: yellow;*/
+	padding: 0 0.24rem;
+	display: flex;
+}
+.content .left{
+	width: 1.99rem;
+	height: 1.99rem;
+	/*background: #4ebbfe;*/
+}
+.content .left img{
+	width: 110%;
+	height: 110%;
+}
+.content .right{
+	width: calc(100% - 1.86rem);
+	height: 100%;
+	padding-left:0.27rem;
+	padding-top: 0.2rem;
+	/*background: #a4e0bd;*/
+}
+.content .right .one{
+	height: 25%;
+	width: 100%;
+	/*background: antiquewhite;*/
+	display: flex;
+	justify-content: space-between;
+}
+.content .right .two{
+	height: 25%;
+	width: 100%;
+	/*background: antiquewhite;*/
+	display: flex;
+}
+.content .right .two .first{
+	display: flex;
+	padding-top: 0.1rem;
+}
+.content .right .two .first img{
+	width: 0.2rem;
+	height: 0.2rem;
+}
+.content .right .two .first p{
+	font-family: PingFangSC-Semibold;
+	font-size: 0.22rem;
+	font-weight: bold;
+	font-stretch: normal;
+	letter-spacing: 0.01rem;
+	color: #000000;
+	opacity: 0.3;
+}
+.content .right .two .first .pf{
+	font-size: 0.26rem;
+	margin-left: 0.12rem;
+	font-family: SanFranciscoDisplay-Bold;
+	font-weight: bold;
+	font-stretch: normal;
+	color: #36a8fe;
+	margin-top: -0.04rem;
+}
+.content .right .two .second{
+	margin-left: 0.5rem;
+}
+.content .right .three{
+	height: 25%;
+	width: 100%;
+	/*background: antiquewhite;*/
+	display: flex;
+}
+.content .right .three .fczy{
+	margin-top: 0.1rem;
+	 width: 1.21rem;
+	 height: 0.35rem;
+	 background-color: #e7f6ff;
+	 border-radius: 0.18rem;
+	text-align: center;
+	line-height: 0.35rem;
+	 color: #36a8fe;
+ }
+.content .right .four{
+	height: 25%;
+	width: 100%;
+	/*background: antiquewhite;*/
+	display: flex;
+	padding-top: 0.1rem;
+	position: relative;
+}
+.content .right .four .first p{
+	font-size: 0.18rem;
+}
+.content .right .four .first .pf{
+	font-size: 0.18rem;
+	color: #e0e2e3;
+	margin-top: 0;
+}
+.content .right .four .first .yy{
+	width: 1.24rem;
+	height: 0.45rem;
+	background-color: #3bacfe;
+	box-shadow: 0 0.05rem 0.12rem 0
+	rgba(59, 172, 254, 0.43);
+	border-radius: 0.22rem;
+	position: absolute;
+	top: 0;
+	right: 0;
+	text-align: center;
+	line-height: 0.45rem;
+}
+.content .right .four .first .yy p{
+	font-family: PingFangSC-Semibold;
+	font-size: 0.2rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0.01rem;
+	color: white;
+	opacity: 1;
+}
+.four-one h3{
+	position: absolute;
+	top: 0.1rem;
+	right: 0;
+}
