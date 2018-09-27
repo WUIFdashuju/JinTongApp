@@ -1,0 +1,92 @@
+/*顶部开始*/
+.title{
+    width:100%;
+    height: 1rem;
+    line-height: 1rem;
+    display: flex;
+    align-items: center;
+    padding: 0 0.24rem;
+    box-shadow: 0 0 2rem 0.05rem rgba(41,167,255,0.13);
+}
+.title img{
+    width: 0.4rem;
+    height: 0.4rem;
+    margin-left:0.2rem;
+}
+.title h2{
+    font-size:0.36rem;
+    font-weight: 500;
+    margin-left:2.3rem;
+    color:#4ebbfe;
+    font-weight: bolder;
+}
+.word{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 1.85rem;
+}
+ .word img{
+    width: 0.2rem;
+    height: 0.15rem;
+}
+ .word .wenzi{
+    display: flex;
+    align-items: center;
+}
+ .word h1{
+    font-size: 0.26rem;
+    color: #4f5b64;
+    font-weight: bold;
+    margin: 0 0.15rem 0 0.15rem;
+}
+.weixin{
+    width: 100%;
+    padding: 0 0.24rem;
+    height: 1.06rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.66rem;
+}
+.weixin .left{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.weixin .left img{
+    width: 1.06rem;
+    height: 1.06rem;
+
+}
+.weixin .left p{
+    color: #47405f;
+    font-size: 0.28rem;
+    font-weight: bolder;
+    margin-left: 0.16rem;
+}
+.line{
+    width: 7.02rem;
+    height: 0.02rem;
+    margin: 0 auto;
+    background: #f1f4f5;
+}
+.foot{
+    position: absolute;
+    bottom: 3.69rem;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 4.54rem;
+    height: 0.6rem;
+    color: white;
+    font-size: 0.2rem;
+    line-height: 0.6rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    background: linear-gradient(to right, #37e070,#32d698);
+    box-shadow: 0 0.03rem 0.4rem 0.01rem rgba(55,223,116,0.6);
+}
