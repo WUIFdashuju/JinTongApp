@@ -1,0 +1,125 @@
+/*顶部开始*/
+.title{
+    width:100%;
+    height: 1rem;
+    line-height: 1rem;
+    display: flex;
+    align-items: center;
+    padding: 0 0.24rem;
+    box-shadow: 0 0 2rem 0.05rem rgba(41,167,255,0.13);
+}
+.title img{
+    width: 0.4rem;
+    height: 0.4rem;
+    margin-left:0.2rem;
+}
+.title h2{
+    font-size:0.36rem;
+    font-weight: 500;
+    margin-left:2.3rem;
+    color:#4ebbfe;
+    font-weight: bolder;
+}
+/*会员等级介绍部分开始*/
+.membershipgrade{
+    width: 100%;
+    /*background: #59c3fe;*/
+    padding: 0 0.24rem;
+}
+.membershipgrade .top{
+    height: 1rem;
+    border-bottom: 0.02rem solid #eef1f2;
+    line-height: 1rem;
+    margin-left:0.2rem;
+    margin-right:0.2rem;
+    display: flex;
+    align-items: center;
+}
+.membershipgrade .top .dot{
+    width: 0.1rem;
+    height: 0.05rem;
+    border-radius: 0.05rem;
+    background: #44b5ff;
+    margin-right: 0.06rem;
+}
+.membershipgrade .top h1{
+    font-size: 0.32rem;
+    color: #4f5b64;
+}
+.membershipgrade .top span{
+    font-size: 0.32rem;
+    color: #44b5ff;
+}
+.membershipgrade .content{
+    display: flex;
+    flex-direction: column;
+    margin-left:0.2rem;
+    margin-right:0.2rem;
+}
+.membershipgrade .content .good{
+    display: flex;
+    align-items: center;
+    margin-top: 0.35rem;
+}
+.membershipgrade .content .good p{
+    font-size: 0.24rem;
+    color: rgba(0,0,0,0.4);
+    font-weight: bold;
+    margin-left: 0.1rem;
+    font-weight: bolder;
+}
+/*会员特权介绍部分开始*/
+.memberprivileges{
+    width: 100%;
+    /*background: #59c3fe;*/
+    padding: 0 0.24rem;
+    margin-top: 0.4rem;
+}
+.memberprivileges .top{
+    height: 1rem;
+    border-bottom: 0.02rem solid #eef1f2;
+    line-height: 1rem;
+    margin-left:0.2rem;
+    display: flex;
+    align-items: center;
+    margin-right:0.2rem;
+}
+.memberprivileges .top .dot{
+    width: 0.1rem;
+    height: 0.05rem;
+    border-radius: 0.05rem;
+    background: #44b5ff;
+    margin-right: 0.06rem;
+}
+.memberprivileges .top h1{
+    font-size: 0.32rem;
+    color: #4f5b64;
+}
+.memberprivileges .top span{
+    font-size: 0.32rem;
+    color: #44b5ff;
+}
+.memberprivileges .content{
+    margin-top: 0.35rem;
+    margin-right:0.2rem;
+}
+.memberprivileges .content  .goods{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 0.2rem;
+}
+.memberprivileges .content  .goods .text{
+    display: flex;
+    flex-direction: column;
+    margin-top: -0.1rem;
+}
+.memberprivileges .content  .goods .text h2{
+    font-size: 0.28rem;
+    color: rgba(0,0,0,0.7);
+}
+.memberprivileges .content  .goods .text h3{
+    font-size: 0.24rem;
+    color: rgba(0,0,0,0.3);
+}
+

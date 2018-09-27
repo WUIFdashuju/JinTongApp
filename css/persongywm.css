@@ -1,0 +1,140 @@
+/*顶部开始*/
+.title{
+    width:100%;
+    height: 1rem;
+    line-height: 1rem;
+    display: flex;
+    align-items: center;
+    padding: 0 0.24rem;
+    box-shadow: 0 0 2rem 0.05rem rgba(41,167,255,0.13);
+}
+.title img{
+    width: 0.4rem;
+    height: 0.4rem;
+    margin-left:0.2rem;
+}
+.title h2{
+    font-size:0.36rem;
+    font-weight: 500;
+    margin-left:2.3rem;
+    color:#4ebbfe;
+    font-weight: bolder;
+}
+.mid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 6.81rem;
+    height: 2.24rem;
+    margin: 0.8rem auto 0;
+    background-image: url("../img/cjr08.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.mid .imgs{
+    width: 1.10rem;
+    height: 1.45rem;
+    display: block;
+    margin-bottom: 0.4rem;
+}
+.word{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.word img{
+    width: 0.2rem;
+    height: 0.15rem;
+}
+.word .wenzi{
+    display: flex;
+    align-items: center;
+}
+.word h1{
+    font-size: 0.26rem;
+    color: rgba(0,0,0,0.7);
+    font-weight: bold;
+    margin: 0 0.15rem 0 0.15rem;
+}
+/**/
+.line{
+    width: 6.44rem;
+    height: 0.02rem;
+    margin: 0.6rem auto 0;
+    background: #f1f4f5;
+}
+/**/
+.con{
+    margin-top: 0.6rem;
+    padding: 0 0.56rem;
+}
+.con p{
+    color: rgba(0,0,0,0.5);
+    font-size: 0.26rem;
+    line-height: 1.8em;
+}
+/**/
+.wei{
+    display: flex;
+    flex-direction: column;
+    padding: 0 0.56rem;
+}
+.wei .top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 1.10rem;
+    border-bottom: 0.02rem solid #f6f9fa;
+}
+.wei .top .left{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.wei .top .left img{
+    width: 0.2rem;
+    height: 0.15rem;
+}
+.wei .top .left p{
+    font-size: 0.28rem;
+    color: rgba(0,0,0,0.5);
+    margin-left: 0.2rem;
+}
+.wei .top h1{
+    font-size: 0.28rem;
+    color: #4ebbfe;
+}
+.wei .bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 1.10rem;
+    border-bottom: 0.02rem solid #f6f9fa;
+}
+.wei .bottom .left{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.wei .bottom .left img{
+    width: 0.2rem;
+    height: 0.15rem;
+}
+.wei .bottom .left p{
+    font-size: 0.28rem;
+    color: rgba(0,0,0,0.5);
+    margin-left: 0.2rem;
+}
+.wei .bottom h1{
+    font-size: 0.28rem;
+    color: #68ce8a;
+}
+
+
+
+

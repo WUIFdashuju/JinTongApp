@@ -212,6 +212,8 @@
     padding-top: 0.47rem;
     display:flex;
 }
+
+
 .click .click-one{
     width: 1.5rem;
     height: 0.52rem;
@@ -219,6 +221,11 @@
     border-radius: 0.26rem;
     margin-left: 1.3rem;
 }
+.click .boxactive{
+     box-shadow: 0px 5px 12px 0px
+     rgba(59, 172, 254, 0.43);
+     background: #3bacfe;
+ }
 .click .click-two{
     margin-left: 0.45rem;
 }
@@ -228,12 +235,7 @@
     color: #3bacfe;
     font-weight: bold;
 }
-.boxactive{
-    box-shadow: 0px 5px 12px 0px
-    rgba(59, 172, 254, 0.43);
-    background: #3bacfe;
-}
-.active{
+.click .click-one .active{
     color: white;
 }
 footer{
@@ -244,7 +246,6 @@ footer{
     top:5.9rem;
     left: 0;
 
-
 }
 .tclick{
     width: 100%;
@@ -252,7 +253,7 @@ footer{
     background-color: #3bacfe;
 }
 .footers{
-    margin-top: -0.57rem;
+    margin-top: -0.3rem;
     display: none;
 
 }
@@ -275,11 +276,17 @@ footer{
 .libottom{
     border-bottom: 0.05rem solid white;
 }
-.tclick ul li .sjx{
+.tclick ul li .sjx1{
     position: absolute;
     bottom: -0.29rem;
     left: 0;
     right: 0;
+    display: none;
+}
+.footer1 .list1{
+    position: absolute;
+    top:0.68rem;
+    left: 0;
     display: none;
 }
 .contents{
@@ -387,4 +394,303 @@ footer{
     position: absolute;
     top: 0.1rem;
     right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+.All{
+    width: 100%;
+    height:auto;
+    background: #fff;
+    position: relative;
+}
+.secAll{
+    width: 100%;
+    height: auto;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.sec_all{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0.68rem;
+    left: 0;
+    background: #fff;
+    display: none;
+}
+.sec_detail{
+    width: 100%;
+    height: 1.97rem;
+    margin-bottom: 0.32rem;
+}
+.det_left{
+    width: 1.97rem;
+    height: 1.97rem;
+    background: #fff;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.det_left img{
+    width: 1.47rem;
+    height: 1.47rem;
+}
+.det_right{
+    width: 5rem;
+    height: 1.97rem;
+    padding-left: 0.28rem;
+    box-sizing: border-box;
+    float: left;
+}
+.det_right1{
+    width: 5rem;
+    height: 0.6rem;
+    font-size: 0.3rem;
+    font-weight: bold;
+    font-family: PingFangSC;
+    line-height: 0.6rem;
+    color: #646666;
+}
+.det_right2{
+    width: 5rem;
+    height: 0.41rem;
+    font-size: 0.22rem;
+    font-weight: bold;
+    font-family: PingFangSC;
+    padding-bottom: 0.08rem;
+    border-bottom: 0.01rem solid #f0f5f7;
+    color: #afb1b2;
+}
+.det_right3{
+    width: 5rem;
+    height: 0.55rem;
+}
+.det_right3_le{
+    width: 2.83rem;
+    height: 0.55rem;
+    float: left;
+}
+.det_ri3_le_le{
+    width: 1.31rem;
+    height: 0.55rem;
+    float: left;
+}
+.le_le_pot{
+    width: 0.05rem;
+    height: 0.05rem;
+    border-radius: 50%;
+    background: #44b5ff;
+    box-shadow: 0 0.02rem 0.04rem 0.001rem #98cdf5;
+    margin-top: 0.25rem;
+    float: left;
+}
+.le_le_pot1{
+    width: 0.05rem;
+    height: 0.05rem;
+    border-radius: 50%;
+    background: #36d681;
+    box-shadow: 0 0.02rem 0.04rem 0.001rem #d4f6e6;
+    margin-top: 0.25rem;
+    float: left;
+}
+.le_le_word{
+    width: 0.45rem;
+    height: 0.55rem;
+    font-size: 0.2rem;
+    font-weight: bold;
+    font-family: PingFangSC;
+    color: #afb1b2;
+    line-height: 0.55rem;
+    margin-left: 0.1rem;
+    float: left;
+}
+.le_le_num{
+    width: 0.4rem;
+    height: 0.55rem;
+    font-size: 0.24rem;
+    font-weight: bold;
+    font-family: San Francisco Display;
+    color: #36a8fe;
+    float: left;
+    line-height: 0.55rem;
+    margin-left: 0.1rem;
+}
+.le_le_num span{
+    color: #b9e1ff;
+    font-size: 0.2rem;
+}
+.det_ri3_le_ri{
+    width: 1.3rem;
+    height:  0.55rem;
+    float: right;
+}
+.det_right3_ri{
+    width: 1.4rem;
+    height: 0.55rem;
+    float: right;
+    font-size: 0.26rem;
+    color: #fbb548;
+    font-family: PingFangSC;
+    font-weight: bold;
+    margin-top: 0.06rem;
+}
+.det_right4{
+    width: 100%;
+    height: 0.25rem;
+}
+.det_right4 img{
+    width: 0.28rem;
+    height: 0.28rem;
+    float: left;
+}
+.det_right4 span{
+    width: 0.8rem;
+    height: 0.26rem;
+    color: #cfcfcf;
+    font-size: 0.2rem;
+    font-family: PingFangSC;
+    line-height: 0.26rem;
+    float: left;
+    margin-left: 0.1rem;
+}
+.commitAll{
+    width: 100%;
+    height: 6rem;
+    position: absolute;
+    top: 0.7rem;
+    left: 0;
+}
+.commit{
+    width: 100%;
+    height: 2.28rem;
+    background: #fbfeff;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    border-bottom: 0.01rem solid #f0f5f7;
+    margin-top: 0.25rem;
+}
+.sec_le{
+    width: 0.85rem;
+    height: 2.28rem;
+    float: left;
+}
+.sec_le img{
+    width: 0.85rem;
+    height: 0.85rem;
+    margin-top: 0.31rem;
+}
+.sec_ri{
+    width:6.16rem;
+    height: 2.28rem;
+    padding-left: 0.22rem;
+    box-sizing: border-box;
+    float: left;
+}
+.sec_ri img{
+    width: 1.85rem;
+    height: 1rem;
+}
+.sec_ri_word1{
+    width: 5.94rem;
+    height: 0.5rem;
+    margin-top: 0.44rem;
+    font-size: 0.2rem;
+    color: #cfcfcf;
+    line-height: 0.5rem;
+}
+.word1_ri{
+    float: right;
+    color: #9ed5ff;
+    font-size: 0.2rem;
+    line-height: 0.5rem;
+}
+.sec_ri_word2{
+    height: 0.44rem;
+    line-height: 0.44rem;
+    font-size: 0.26rem;
+    color: #646666;
+    font-weight: bold;
+}
+.sec_ri_word3{
+    height: 0.43rem;
+    line-height: 0.43rem;
+    font-size: 0.22rem;
+    color: #d6d8d9;
+    font-weight: bold;
+}
+.sec_ri_word4{
+    height: 0.48rem;
+}
+.sec_ri_word4 img{
+    width: 0.46rem;
+    height: 0.44rem;
+    float: right;
+    margin-left: 0.5rem;
+}
+.navCommit{
+    width: 100%;
+    height: 1.02rem;
+    background: #fff;
+    box-shadow: 0 0.1rem 0.5rem 0.008rem #ecf8ff;
+}
+.navCommit ul{
+    width:7.14rem;
+    height: 0.78rem;
+    margin: 0.13rem auto;
+}
+.navCommit li{
+    width: 1.42rem;
+    height: 0.78rem;
+    float: left;
+    font-size: 0.2rem;
+    color: #b3dfff;
+    text-align: center;
+    font-weight: bold;
+    line-height: 0.78rem;
+    box-sizing: border-box;
+}
+.navSec_all{
+    width: 100%;
+    height: 0.68rem;
+    background: #3bacfe;
+}
+.navSec_all ul{
+    width: 6.8rem;
+    height: 0.68rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navSec_all li{
+    width: 1.39rem;
+    height: 0.68rem;
+    color: #b1deff;
+    font-weight: bold;
+    line-height: 0.68rem;
+    text-align: center;
+    font-size: 0.2rem;
+    position: relative;
+    box-sizing: border-box;
+}
+.threeJan{
+    height: 0.34rem;
+    font-size: 0.1rem;
+    color: #fff;
+    position: absolute;
+    bottom:0.01rem ;
+    left: 0.64rem;
+    display: none;
 }

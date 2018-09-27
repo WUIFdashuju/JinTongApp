@@ -1,0 +1,106 @@
+header{
+    width: 7.5rem;
+    height: 1.2rem;
+    padding: 0.4rem 0.24rem 0.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fbfeff;
+    box-shadow: 0 0 0.4rem 0 rgba(41, 167, 255, 0.13);
+}
+header .title{
+    width: 0.8rem;
+    height: 0.4rem;
+    font-family: "苹方";
+    font-size: 0.4rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.4rem;
+    color: #4ebbfe;
+}
+main{
+    margin:2.29rem auto;
+    width: 5.2rem;
+    height: 4.18rem;
+}
+main .title{
+    width: 5.2rem;
+    height: 0.6rem;
+    font-family: "苹方";
+    font-size: 0.3rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.4rem;
+    letter-spacing: 0;
+    color: rgba(0,0,0,0.6);
+    border-bottom: 0.02rem solid rgba(0,0,0,0.05);
+    text-align: center;
+}
+main .img{
+    height: 1.58rem;
+    padding: 0.3rem 2.11rem 0.4rem;
+}
+main .box{
+    width: 4.47rem;
+    height: 0.7rem;
+    font-family: "苹方";
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    border-bottom:0.02rem solid rgba(0,0,0,0.03);
+    text-align: center;
+    line-height: 0.7rem;
+    margin:0 auto;
+    position: relative;
+}
+main .title1{
+    font-size: 0.26rem;
+    color: rgba(0,0,0,0.4);
+}
+main .title2{
+    font-size: 0.24rem;
+    color: rgba(0,0,0,0.3);
+}
+main .box i{
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0.35rem;
+    margin:auto 0;
+    width: 0.05rem;
+    height: 0.05rem;
+    background-color: #36d681;
+    box-shadow: 0 0.02rem 0.05rem 0 rgba(54, 214, 129, 0.43);
+    border-radius: 0.03rem;
+}
+.bth{
+    margin:0.26rem auto;
+    width: 3.01rem;
+    height: 0.52rem;
+    display: flex;
+    justify-content: space-between;
+
+ }
+.bth .button{
+    width: 1.33rem;
+    height: 0.52rem;
+    background-color:rgba(59,172,254,0.1);
+    font-family: "苹方";
+    border-radius: 0.26rem;
+    opacity: 0.72;
+    font-size: 0.2rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #3bacfe;
+    text-align: center;
+    line-height: 0.52rem;
+    border: none;
+}
+
+.bth .action{
+    background-color: #3bacfe;
+    box-shadow: 0 0.05rem 0.12rem 0
+    rgba(59, 172, 254, 0.43);
+    color: #ffffff;
+}

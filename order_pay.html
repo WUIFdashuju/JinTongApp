@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>订单</title>
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_808113_sur7b9daivm.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/order_pay.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/order_pay.js"></script>
+</head>
+<body>
+<!--头部状态栏开始-->
+<div class="header"></div>
+<!--头部状态栏结束-->
+<!--标题栏开始-->
+<section class="title">
+    <img src="img/left.png" alt="">
+    <h2>订单</h2>
+</section>
+<!--标题栏结束-->
+<!--导航栏开始-->
+<nav>
+    <ul>
+        <li class="lis all">全部
+            <div class="bots"></div>
+        </li>
+        <li class="lis pay choose">待支付
+            <div class="bots chooses"></div>
+        </li>
+        <li class="lis serve">待服务
+            <div class="bots"></div>
+        </li>
+        <li class="lis take">待收货
+            <div class="bots"></div>
+        </li>
+        <li class="lis assess">待评价
+            <div class="bots"></div>
+        </li>
+    </ul>
+    <div class="bot"></div>
+</nav>
+<!--导航栏结束-->
+<!--列表开始-->
+<main>
+    <div class="list list_all">
+        <dl>
+            <dt>
+                <img src="img/order_pay1.png" alt="">
+            </dt>
+            <dd>
+                <p>潜水艇高端龙头</p>
+                <div class="lists">
+                    <img src="img/order_pay_blue.png" alt="">
+                    <span class="name">ECC01-001Lw</span>
+                </div>
+                <div class="lists">
+                    <img src="img/order_pay_blue.png" alt="">
+                    <span class="info">商品规格潜水艇高端龙头</span>
+                </div>
+                <div class="lists">
+                    <img src="img/order_pay_blue.png" alt="">
+                    <p class="money">￥<span class="price">60.00</span></p>
+                    <div class="num">
+                        <img src="img/order_pay_green.png" alt="">
+                        <p class="ride">x<span class="nums">1</span></p>
+                    </div>
+                </div>
+
+            </dd>
+        </dl>
+        <div class="out-of-pocket">
+            <img src="img/order_pay_green.png" alt="">
+            <p class="pocket">实付款： ￥<span class="prices">60.00</span></p>
+        </div>
+        <div class="selects">
+            <div class="sel_pay">去评价</div>
+            <div class="sel_cancel">去退款</div>
+        </div>
+    </div>
+    <div class="list list_pay">
+        <dl>
+            <dt>
+                <img src="img/order_pay1.png" alt="">
+            </dt>
+            <dd>
+                <p>潜水艇高端龙头</p>
+                <div class="lists">
+                    <img src="img/order_pay_blue.png" alt="">
+                    <span class="name">ECC01-001Lw</span>
+                </div>
+                <div class="lists">
+                    <img src="img/order_pay_blue.png" alt="">
+                    <span class="info">商品规格潜水艇高端龙头</span>
+                </div>
+                <div class="lists">
+                    <img src="img/order_pay_blue.png" alt="">
+                    <p class="money">￥<span class="price">60.00</span></p>
+                </div>
+            </dd>
+        </dl>
+        <div class="out-of-pocket">
+            <img src="img/order_pay_green.png" alt="">
+            <p class="pocket">实付款： ￥<span class="prices">60.00</span></p>
+        </div>
+        <div class="selects">
+            <div class="sel_pay">去支付</div>
+            <div class="sel_cancel">取消订单</div>
+        </div>
+    </div>
+    <div class="list list_serve">
+        <dl>
+            <dt>
+                <img src="img/order_pay2.png" alt="">
+            </dt>
+            <dd>
+                <p class="names">厨房下水清洁疏通</p>
+                <p class="wait">待接单</p>
+                <div class="lists">
+                    <img src="img/order_pay_blue.png" alt="">
+                    <p class="day">预约日期<span class="infor">2018.05.28  14:00</span></p>
+                </div>
+                <div class="lists">
+                    <img src="img/order_pay_blue.png" alt="">
+                    <p class="money">￥<span class="price">60.00</span></p>
+                    <div class="num">
+                        <img src="img/order_pay_green.png" alt="">
+                        <p class="ride">x<span class="nums"></span></p>
+                    </div>
+                </div>
+            </dd>
+        </dl>
+        <div class="out-of-pocket">
+            <img src="img/order_pay_green.png" alt="">
+            <p class="pocket">已付款： ￥<span class="prices">60.00</span></p>
+        </div>
+        <div class="remark">
+            <p class="remarks">剩余款项由维修人员上门视具体情况报价</p>
+        </div>
+        <div class="selects">
+            <div class="sel_pay">去支付服务费</div>
+            <div class="sel_cancel">取消预约</div>
+        </div>
+    </div>
+    <div class="list list_take">
+        <dl>
+            <dt>
+                <img src="img/order_pay1.png" alt="">
+            </dt>
+            <dd>
+                <p>潜水艇高端龙头</p>
+                <div class="lists">
+                    <img src="img/order_pay_blue.png" alt="">
+                    <span class="name">ECC01-001Lw</span>
+                </div>
+                <div class="lists">
+                    <img src="img/order_pay_blue.png" alt="">
+                    <span class="info">商品规格潜水艇高端龙头</span>
+                </div>
+                <div class="lists">
+                    <img src="img/order_pay_blue.png" alt="">
+                    <p class="money">￥<span class="price">60.00</span></p>
+                    <div class="num">
+                        <img src="img/order_pay_green.png" alt="">
+                        <p class="ride">x<span class="nums">1</span></p>
+                    </div>
+                </div>
+
+            </dd>
+        </dl>
+        <div class="out-of-pocket">
+            <img src="img/order_pay_green.png" alt="">
+            <p class="pocket">实付款： ￥<span class="prices">60.00</span></p>
+        </div>
+        <div class="selects">
+            <div class="sel_pay">确认收货</div>
+            <div class="sel_cancel">去退款</div>
+        </div>
+    </div>
+    <div class="list list_assess">
+        <dl>
+            <dt>
+                <img src="img/order_pay1.png" alt="">
+            </dt>
+            <dd>
+                <p>潜水艇高端龙头</p>
+                <div class="lists">
+                    <img src="img/order_pay_blue.png" alt="">
+                    <span class="name">ECC01-001Lw</span>
+                </div>
+                <div class="lists">
+                    <img src="img/order_pay_blue.png" alt="">
+                    <span class="info">商品规格潜水艇高端龙头</span>
+                </div>
+                <div class="lists">
+                    <img src="img/order_pay_blue.png" alt="">
+                    <p class="money">￥<span class="price">60.00</span></p>
+                    <div class="num">
+                        <img src="img/order_pay_green.png" alt="">
+                        <p class="ride">x<span class="nums">1</span></p>
+                    </div>
+                </div>
+
+            </dd>
+        </dl>
+        <div class="out-of-pocket">
+            <img src="img/order_pay_green.png" alt="">
+            <p class="pocket">实付款： ￥<span class="prices">60.00</span></p>
+        </div>
+        <div class="selects">
+            <div class="sel_pay">去评价</div>
+            <div class="sel_cancel">去退款</div>
+        </div>
+    </div>
+</main>
+<!--列表结束-->
+
+
+<!--底部开始-->
+<footer>
+    <ul>
+        <a href="">
+            <li class="list">
+                <div class="imgs">
+                    <img src="img/shouye%200.png" alt="">
+                </div>
+                <h3>首页</h3>
+            </li>
+        </a>
+        <a href="">
+            <li class="list">
+                <div class="imgs">
+                    <img src="img/shangcheng%200.png" alt="">
+                </div>
+                <h3>商城</h3>
+            </li>
+        </a>
+        <a href="">
+            <li class="list">
+                <div class="imgs">
+                    <img src="img/ruzhu%200.png" alt="">
+                </div>
+                <h3>入驻</h3>
+            </li>
+        </a>
+        <a href="">
+            <li class="list">
+                <div class="imgs">
+                    <img src="img/dingdan%201.png" alt="">
+                </div>
+                <h3 class="active">订单</h3>
+            </li>
+        </a>
+        <a href="">
+            <li class="list">
+                <div class="imgs">
+                    <img src="img/wode%200.png" alt="">
+                </div>
+                <h3>我的</h3>
+            </li>
+        </a>
+    </ul>
+</footer>
+<!--底部结束-->
+</body>
+</html>

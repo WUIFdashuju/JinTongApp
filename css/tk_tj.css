@@ -1,0 +1,259 @@
+/*顶部开始*/
+.title{
+    width:100%;
+    height: 1rem;
+    line-height: 1rem;
+    display: flex;
+    align-items: center;
+    padding: 0 0.24rem;
+    box-shadow: 0 0 2rem 0.05rem rgba(41,167,255,0.13);
+}
+.title img{
+    width: 0.4rem;
+    height: 0.4rem;
+    margin-left:0.2rem;
+}
+.title h2{
+    font-size:0.36rem;
+    font-weight: 500;
+    margin-left:2.3rem;
+    color:#4ebbfe;
+}
+/*内容开始*/
+main{
+    height: 100%;
+    /*background: #4ebbfe;*/
+    margin: 0.5rem 0.24rem;
+
+}
+main .nav{
+    width:100% ;
+    height:2.2rem ;
+    /*background: aqua;*/
+    padding:0.24rem  0 ;
+    display: flex;
+    justify-content: space-between;
+}
+
+main  .nav  .list{
+    width: 1.74rem;
+    height: 1.74rem;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 21px 0px
+    rgba(223, 223, 223, 0.43);
+    border-radius: 10px;
+    overflow: hidden;
+}
+main  .nav  .list img{
+    width: 1.19rem;
+    height: 1.25rem;
+    display: block;
+    margin: 0.26rem  0.35rem 0.23rem 0.2rem;
+}
+main  .nav  .list-ner{
+    width: calc(100% - 1.74rem);
+    height: 1.74rem;
+    margin-left: 0.27rem;
+}
+main  .nav  .list-ner h2{
+    font-size: 0.3rem;
+    letter-spacing: 0.02rem;
+    color: #646666;
+}
+main  .nav  .list-ner .titler{
+    width: 100%;
+    height: 0.26rem;
+    margin-top: 0.16rem;
+}
+main  .nav  .list-ner  .pc{
+    width: 0.13rem;
+    height:0.13rem;
+    display: block;
+    float: left;
+    margin-top: 0.08rem;
+}
+main  .nav  .list-ner .titler .title-wz{
+    font-size: 0.22rem;
+    letter-spacing: 0px;
+    color: #36a8fe;
+}
+main  .nav  .list-ner  .shop{
+    width:100% ;
+    height: 0.22rem;
+    /*background: antiquewhite;*/
+    margin-top: 0.16rem;
+}
+main  .nav  .list-ner .shop .shop-wz{
+    font-size: 0.22rem;
+    color: #afb1b2;
+    line-height: 0.22rem;
+}
+main  .nav  .list-ner  .money {
+    width: 100%;
+    height: 0.22rem;
+    margin-top: 0.3rem;
+    display: flex;
+    justify-content: space-between;
+}
+main  .nav  .list-ner .money .money-wz{
+    font-size: 0.26rem;
+    color: #8a8c8d;
+    line-height: 0.2rem;
+}
+main .price{
+    width: 100%;
+    height:1.2rem ;
+    text-align: right;
+    border-bottom:0.02rem solid #f1f4f5;
+    position: relative;
+}
+main .price img{
+    width: 0.13rem;
+    height:0.13rem;
+    display: block;
+    margin-top: 0.08rem;
+    position: absolute;
+    top:0.45rem;
+    right: 2rem;
+}
+main .price .price_wz{
+    padding-top: 0.4rem;
+    font-size: 0.24rem;
+    letter-spacing: 0.01rem;
+    color: #fbb548;
+    display: inline-block;
+}
+main .why{
+    width: 100%;
+    height: 1.09rem;
+    /*background: red;*/
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.02rem solid #f1f4f5;
+}
+main  .pct{
+    width: 0.2rem;
+    height: 0.13rem;
+    display: block;
+    float: left;
+    margin-top: 0.5rem;
+}
+main .why span{
+    display: inline-block;
+    font-size: 0.26rem;
+    line-height: 1.09rem;
+    letter-spacing: 0.02rem;
+    color: #474747;
+}
+main .why .buy{
+    display: flex;
+    justify-content: space-between;
+    width: 1.46rem;
+}
+main .why .buy img{
+    display: block;
+    width: 0.2rem;
+    height: 0.3rem;
+    margin: auto 0;
+}
+main .sum{
+    width: 100%;
+    height: 1.48rem;
+    /*background: #fbb548;*/
+}
+main .sum span{
+    display: inline-block;
+    font-size: 0.26rem;
+    line-height: 0.7rem;
+    letter-spacing: 0.02rem;
+    color: #474747;
+}
+main .pctt{
+    width: 0.2rem;
+    height: 0.13rem;
+    display: block;
+    float: left;
+    margin-top: 0.3rem;
+
+}
+main .sum .tit{
+    font-size:0.22rem;
+    letter-spacing: 0.01rem;
+    color: #afb1b2;
+}
+main .sum p{
+    font-size: 0.32rem;
+    letter-spacing: 0.01rem;
+    color: #fcbc41;
+    padding-left: 0.2rem;
+}
+main textarea{
+    font-size:0.24rem ;
+    width: 100%;
+    height: 1.48rem;
+    background-color: #e7f6ff;
+    border-radius: 0.08rem;
+    border: none;
+    outline: none;
+    text-align: left;
+    padding:0.27rem;
+    display: block;
+}
+main .git{
+    width: 100%;
+    /*background: #fbb548;*/
+}
+main .git span{
+    display: inline-block;
+    font-size: 0.26rem;
+    line-height: 0.8rem;
+    letter-spacing: 0.02rem;
+    color: #474747;
+}
+main .git .tit{
+    font-size:0.22rem;
+    letter-spacing: 0.01rem;
+    color: #afb1b2;
+}
+main .git .xj{
+    width: 1.01rem;
+    height:1.01rem;
+    background-image: linear-gradient(90deg, #37e06f 0%, #31d69a 100%),
+    linear-gradient(#36a8fe, #36a8fe);
+    background-blend-mode: normal,
+    normal;
+    box-shadow: 0px 4px 20px 0px rgba(55, 223, 116, 0.75);
+    border-radius: 10px;
+    position:relative;
+    margin-left: 0.2rem;
+}
+main .git .xj img{
+    width: 0.49rem;
+    height: 0.42rem;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+main .tj{
+    width:4.54rem;
+    height: 0.6rem;
+    background-image: linear-gradient(90deg, #37e06f 0%, #31d69a 100%),
+    linear-gradient(#3bacfe, #3bacfe);
+    background-blend-mode: normal, normal;
+    box-shadow: 0px 4px 20px 0px rgba(55, 223, 116, 0.75);
+    border-radius: 30px;
+    position: fixed;
+    bottom: 0.81rem;
+    left: 1.5rem;
+}
+main .tj p{
+    font-size: 0.2rem;
+    letter-spacing: 0.01rem;
+    color: #ffffff;
+    line-height: 0.6rem;
+    text-align: center;
+}

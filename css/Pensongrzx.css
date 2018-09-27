@@ -1,0 +1,212 @@
+/*顶部开始*/
+.title{
+    width:100%;
+    height: 1rem;
+    line-height: 1rem;
+    display: flex;
+    align-items: center;
+    padding: 0 0.24rem;
+    box-shadow: 0 0 2rem 0.05rem rgba(41,167,255,0.13);
+}
+.title img{
+    width: 0.4rem;
+    height: 0.4rem;
+    margin-left:0.2rem;
+}
+.title h2{
+    font-size:0.36rem;
+    font-weight: 500;
+    margin-left:2.8rem;
+    color:#4ebbfe;
+}
+/*内容上半部分开始*/
+main{
+    width: 100%;
+    height: 3.7rem;
+    background: url("../img/jzxbg.png") no-repeat;
+    background-size: 6.81rem 2.24rem;
+    background-position: center;
+}
+main .pBox{
+    width: 6.41rem;
+    height: 1.85rem;
+    background: #fff;
+    border-radius: 0.05rem;
+    margin: 0 auto;
+    margin-top: 0.32rem;
+    box-shadow: 0 0 0.2rem 0.05rem rgba(181,181,181,0.1);
+    padding:0.29rem 0.23rem 0.29rem 0.35rem;
+    display: flex;
+    justify-content: space-between;
+}
+main .pBox .pmas{
+    width: 3rem;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main .pBox .pmas .ptx{
+    width: 1.17rem;
+    height: 1.17rem;
+}
+main .pBox .pmas .pwxBox{
+    width: 1.52rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding:0.33rem 0;
+}
+main .pBox .pmas .pwxBox .phmm{
+    width: 100%;
+    height: 0.3rem;
+    font-size: 0.28rem;
+    color:rgba(0,0,0,0.7);
+    font-weight: bolder;
+}
+main .pBox .pmas .pwxBox .phjhy{
+    width: 100%;
+    height: 0.22rem;
+    display: flex;
+}
+main .pBox .pmas .pwxBox .phjhy .phyimg{
+    width: 0.28rem;
+    height: 0.22rem;
+    margin-right: 0.1rem;
+    margin-top: 0.05rem;
+}
+main .pBox .pmas .pwxBox .phjhy .phywz{
+    width: 0.89rem;
+    height: 0.22rem;
+    font-size: 0.22rem;
+    font-weight: bolder;
+    color: rgba(0,0,0,0.6);;
+}
+main .pBox .pwz{
+    width: 1rem;
+    height: 100%;
+    display: flex;
+    padding-top:0.3rem;
+}
+main .pBox .pwz>h4{
+    font-size: 0.2rem;
+    color: #3bacfe;
+    margin-right: 0.1rem;
+
+}
+main .pTextBox{
+    width: 6.41rem;
+    margin: 0 auto;
+    margin-top: 0.65rem;
+    padding:0 0.6rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+main .pTextBox .pNum{
+    width: 0.85rem;
+    height: 100%;
+}
+main .pTextBox .pNum>h4{
+    font-size: 0.46rem;
+    font-family: "San Francisco Display";
+    background: linear-gradient(to right, #31a4fe, #6ed4fe);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+}
+main .pTextBox .pNumf>h4{
+    background: linear-gradient(to right, #2dde5b, #2fd4b9);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+main .pTextBox .pNumt>h4{
+    background: linear-gradient(to right, #ffb83a, #ffe333);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+main .pTextBox .pNum>p{
+    font-size: 0.24rem;
+    color: #8e9397;
+    text-align: center;
+}
+
+/*内容下半部分开始*/
+.botMasg{
+    width: 6.44rem;
+    margin: 0 auto;
+    margin-top: 0.1rem;
+}
+.botMasg .masBox{
+    width: 100%;
+    height: 0.9rem;
+    border-bottom: 0.02rem solid #f6f9fa;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.botMasg .masBox .pedot{
+    width: 0.1rem;
+    height: 0.05rem;
+    background: #44b5ff;
+    border-radius: 0.02rem;
+    margin-right: 0.14rem;
+}
+.botMasg .masBox>p{
+    font-size: 0.28rem;
+    color: rgba(0,0,0,0.7);
+    line-height: 0.9rem;
+    font-weight: bold;
+}
+.botMasg .masBox>h5{
+    font-family: "San Francisco Display";
+    font-size: 0.36rem;
+    color: #fe624e;
+    line-height: 0.9rem;
+    font-weight: bold;
+    position: absolute;
+    right: 0;
+    top:0;
+    bottom: 0;
+    margin: auto 0;
+}
+/*底部开始*/
+footer{
+    width:100%;
+    height: 1rem;
+    background:rgba(241,249,255,0.5);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 0.1rem 0.24rem 0.1rem;
+}
+footer ul{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.24rem;
+}
+footer ul>a{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer ul li{
+    width: 0.5rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer ul li h3{
+    font-size: 0.24rem;
+    color: #a2deff;
+    position: fixed;
+    bottom: 0.1rem;
+}
+footer ul li h3.active{
+    color: #59c3fe;
+}

@@ -36,7 +36,11 @@ i{
 	}
 }
 @media screen and (min-width:375px){
+<<<<<<< HEAD
 	tml{
+=======
+	html{
+>>>>>>> 95953f2a81c3684569579c105f00a1703c6e965e
 		font-size: calc(375/750*100px);
 	}
 }
