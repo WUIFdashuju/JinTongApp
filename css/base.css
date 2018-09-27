@@ -36,7 +36,7 @@ i{
 	}
 }
 @media screen and (min-width:375px){
-	tml{
+	html{
 		font-size: calc(375/750*100px);
 	}
 }
