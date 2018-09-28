@@ -1,0 +1,279 @@
+/*顶部开始*/
+.title{
+    width:100%;
+    height: 1rem;
+    line-height: 1rem;
+    display: flex;
+    align-items: center;
+    padding: 0 0.24rem;
+    box-shadow: 0 0 2rem 0.05rem rgba(41,167,255,0.13);
+}
+.title img{
+    width: 0.4rem;
+    height: 0.4rem;
+    margin-left:0.2rem;
+}
+.title h2{
+    font-size:0.36rem;
+    font-weight: 500;
+    margin-left:2.8rem;
+    color:#4ebbfe;
+}
+/*导航条开始*/
+nav{
+    width: 100%;
+    height: 0.8rem;
+    background-color: #3bacfe;
+    box-shadow: 0 0.03rem 0.43rem 0 rgba(41, 167, 255, 0.13);
+    padding: 0 0.26rem 0 0.28rem;
+}
+nav .dot{
+    width:0.16rem;
+    height: 0.08rem;
+    background-color: #ffffff;
+    box-shadow: 0 0.02rem 0.05rem 0 rgba(59, 172, 254, 0.43);
+    border-radius: 0.04rem;
+    margin-top: 0.36rem;
+    float: left;
+}
+nav>p{
+    font-size: 0.38rem;
+    color: #ffffff;
+    line-height: 0.8rem;
+    float: left;
+    margin-left: 0.11rem;
+}
+nav>span{
+    font-size: 0.26rem;
+    color: #bae6ff;
+    line-height: 0.8rem;
+    float: right;
+    margin-right: 0.11rem;
+}
+nav>img{
+    float: right;
+    margin-top: 0.28rem;
+}
+/*列表开始*/
+main{
+    width: 100%;
+    height: auto;
+    padding: 0.5rem 0.25rem 0;
+}
+
+main .list_serve {
+    overflow: hidden;
+    padding-bottom: 0.15rem;
+    margin-bottom: 0.1rem;
+    position: relative;
+}
+
+main .list_serve > dl {
+    width: 100%;
+    height: 1.74rem;
+}
+
+main .list_serve > dl > dt {
+    float: left;
+}
+
+main .list_serve > dl > dt > img {
+    width: 1.74rem;
+    height: 1.74rem;
+}
+
+main .list_serve > dl dd {
+    width: 70%;
+    float: left;
+    margin-left: 0.27rem;
+}
+
+main .list_serve > dl dd .names {
+    height: 0.28rem;
+    font-size: 0.3rem;
+    color: #000000;
+    opacity: 0.6;
+    float: left;
+}
+
+main .list_serve > dl dd .wait {
+    font-size: 0.26rem;
+    color: #43c93e;
+    float: right;
+}
+
+main .list_serve > dl dd .lists {
+    height: 0.26rem;
+    width: 100%;
+    margin-top: 0.51rem;
+    position: relative;
+}
+
+main .list_serve > dl dd .lists > img {
+    position: absolute;
+    bottom: 0.04rem;
+}
+
+main .list_serve > dl dd .lists > .day {
+    margin-left: 0.16rem;
+    color: #000000;
+    opacity: 0.3;
+    font-size: 0.22rem;
+    line-height: 0.26rem;
+}
+
+main .list_serve > dl dd .lists > .day > .infor {
+    margin-left: 0.16rem;
+    font-size: 0.26rem;
+    color:#36a8fe;
+}
+
+main .list_serve > dl dd .lists > .money {
+    margin-left: 0.16rem;
+    font-size: 0.26rem;
+    color: #fbb548;
+    line-height: 0.26rem;
+    float: left;
+}
+
+main .list_serve > dl dd .lists > .money > .price {
+    font-size: 0.26rem;
+}
+/*详细信息开始*/
+.contact{
+    width: 100%;
+    height: auto;
+    padding: 0 0.24rem;
+}
+.contact ul{
+    width: 7.02rem;
+    height: auto;
+    background-color: #ffffff;
+    box-shadow: 0 0.01rem 0.21rem 0 rgba(223, 223, 223, 0.43);
+    border-radius: 0.1rem;
+    overflow: hidden;
+    margin-bottom: 0.24rem;
+}
+.contact ul li{
+    width: 100%;
+    height: auto;
+    padding: 0.34rem 0.5rem 0.34rem 0.29rem;
+    border-bottom: 0.02rem solid #fafafa;
+    overflow: hidden;
+}
+.contact ul li img{
+    float: left;
+    margin-top: 0.1rem;
+}
+.contact ul li .left{
+    width: 1.4rem;
+    padding-left: 0.22rem;
+    float: left;
+}
+.contact ul li .left p{
+    font-size: 0.24rem;
+    color: #8a8c8d;
+    line-height: 0.36rem;
+}
+.contact ul li .right{
+    width: calc(100% - 1.6rem);
+    float: right;
+}
+.contact ul li .right span{
+    font-size: 0.24rem;
+    color: #8a8c8d;
+    line-height: 0.36rem;
+}
+
+.contact ol{
+    width: 7.02rem;
+    height: auto;
+    background-color: #ffffff;
+    box-shadow: 0 0.01rem 0.21rem 0 rgba(223, 223, 223, 0.43);
+    border-radius: 0.1rem;
+    overflow: hidden;
+    margin-bottom: 0.24rem;
+}
+.contact ol li{
+    width: 100%;
+    height: 0.87rem;
+    padding:0 0.24rem;
+    border-bottom: 0.02rem solid #fafafa;
+    overflow: hidden;
+    position: relative;
+}
+.contact ol li .pic{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+}
+.contact ol li span{
+    font-size: 0.24rem;
+    position: absolute;
+    color: #3aa9fb;
+    line-height: 0.87rem;
+    margin-left:  0.82rem;
+}
+.contact ol li .info{
+    position: absolute;
+    right: 1.1rem;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+}
+.contact ol li .tel{
+    position: absolute;
+    right: 0.25rem;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+}
+.contact ol li span.text{
+    font-size: 0.24rem;
+    position: absolute;
+    color: #8a8c8d;
+    line-height: 0.87rem;
+    margin-left:  0.56rem;
+}
+.contact ol li span.change{
+    font-size: 0.24rem;
+    position: absolute;
+    color: #8a8c8d;
+    line-height: 0.87rem;
+    margin-left:  0.56rem;
+    position: absolute;
+    right: 0.33rem;
+}
+/*底部开始*/
+footer{
+    width: 100%;
+    height: 1rem;
+    padding: 0.28rem 0.24rem;
+}
+footer .pay{
+    float: right;
+    width: 2.69rem;
+    height: 0.60rem;
+    background-image: linear-gradient(90deg, #37e06f 0%, #31d69a 100%), linear-gradient(#3bacfe, #3bacfe);
+    background-blend-mode: normal, normal;
+    box-shadow: 0 0.04rem 0.2rem 0 rgba(55, 223, 116, 0.75);
+    border-radius: 0.3rem;
+    font-size: 0.24rem;
+    text-align: center;
+    line-height: 0.6rem;
+    color: #ffffff;
+}
+footer .cancel{
+    float: right;
+    width: 1.96rem;
+    height: 0.6rem;
+    background: #e7f6ff;
+    border-radius: 0.3rem;
+    font-size: 0.24rem;
+    text-align: center;
+    line-height: 0.6rem;
+    color: #3bacfe;
+    margin-right: 0.3rem;
+}
+
