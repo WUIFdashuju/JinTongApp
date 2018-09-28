@@ -109,6 +109,7 @@ main .infoContent .left{
     height: 9.94rem;
     width: 6.51rem;
     overflow-y: scroll;
+    overflow-y:-moz-scrollbars-none;
 }
 main .infoContent .left ul{
     width: 6.51rem;
@@ -150,6 +151,7 @@ main .infoContent .left ul li .infoDot{
     height: 0.08rem;
     position:absolute;
     left:0;
+    border-radius: 50%;
     background-color: #37ce9a;
     box-shadow: 0 0.02rem 0.05rem 0 rgba(55, 206, 154, 0.43);
 }
