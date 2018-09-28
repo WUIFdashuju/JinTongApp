@@ -1,0 +1,63 @@
+/*顶部开始*/
+.title{
+    width:100%;
+    height: 1rem;
+    line-height: 1rem;
+    display: flex;
+    align-items: center;
+    padding: 0 0.24rem;
+    box-shadow: 0 0 2rem 0.05rem rgba(41,167,255,0.13);
+}
+.title img{
+    width: 0.4rem;
+    height: 0.4rem;
+}
+.title h2{
+    font-size:0.36rem;
+    display: block;
+    margin: 0 auto;
+    color:#4ebbfe;
+    font-weight: bolder;
+}
+/**/
+.line{
+    width: 6.44rem;
+    height: 0.02rem;
+    margin: 0 auto 0;
+    background: #f1f4f5;
+}
+/**/
+.order{
+    display: flex;
+    flex-direction: column;
+    padding: 0 0.56rem;
+}
+.order .top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 1.60rem;
+    position: relative;
+}
+.order .top img{
+    width: 0.2rem;
+    height: 0.15rem;
+}
+.order .top p{
+    font-size: 0.28rem;
+    color: rgba(0,0,0,0.5);
+    margin-left: 0.2rem;
+}
+/**/
+.con{
+    margin-top: 0.76rem;
+    padding: 0 0.56rem;
+}
+.con p{
+    color: rgba(0,0,0,0.5);
+    font-size: 0.26rem;
+    line-height: 1.8em;
+}
+
+

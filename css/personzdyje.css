@@ -1,0 +1,118 @@
+/*顶部开始*/
+.title{
+    width:100%;
+    height: 1rem;
+    line-height: 1rem;
+    display: flex;
+    align-items: center;
+    padding: 0 0.24rem;
+    box-shadow: 0 0 2rem 0.05rem rgba(41,167,255,0.13);
+}
+.title img{
+    width: 0.4rem;
+    height: 0.4rem;
+}
+.title h2{
+    font-size:0.36rem;
+    display: block;
+    margin: 0 auto;
+    color:#4ebbfe;
+    font-weight: bolder;
+}
+.body{
+    width: 100%;
+    padding: 0.48rem 0.24rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.body .box{
+    width: 2.17rem;
+    height: 1.08rem;
+    background:rgba(231,246,255,0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.1rem;
+}
+.body .box.active{
+    background: #3bacfe;
+    color: white;
+}
+.body .box.active  .price{
+    background: #3bacfe;
+    color: white;
+}
+.body .box.active  .sale{
+    background: #3bacfe;
+    color: white;
+}
+.body .box.active  .mon{
+    background: #3bacfe;
+    color: white;
+}
+.body .box.active  .mon{
+    background: #3bacfe;
+    color: white;
+}
+.body .box.active  .ey{
+    background: #3bacfe;
+    color: #a7daff;
+}
+.body .box p{
+    color: rgba(59,172,254,0.55);
+    font-size: 0.3rem;
+}
+.body .box p span{
+    color: #3bacfe;
+    font-size: 0.4rem;
+    font-weight: bolder;
+    margin-right: 0.05rem;
+}
+.body .box p.sale{
+    color: #3bacfe;
+    font-size: 0.2rem;
+}
+.body .box p span.price{
+    color: #3bacfe;
+    font-size: 0.28rem;
+    font-weight: bold;
+    margin: 0 0.1rem;
+}
+.line{
+    width: 7.02rem;
+    height: 0.02rem;
+    margin: 1rem auto 0.8rem;
+    background: #f1f4f5;
+}
+.foot{
+    width: 100%;
+    padding: 0 0.24rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.foot input{
+    width: 4.75rem;
+    height: 0.76rem;
+    background:rgba(231,246,255,0.5);
+    border: 0.01rem solid rgba(181,225,255,0.5);
+    border-radius: 0.1rem;
+    padding-left: 0.24rem;
+    color: #97c6e9;
+    font-size: 0.24rem;
+    line-height: 0.76rem;
+    outline: none;
+}
+.foot .right{
+    width: 1.96rem;
+    height: 0.6rem;
+    background: linear-gradient(to right, #37e070,#32d698);
+    box-shadow: 0 0.03rem 0.4rem 0.01rem rgba(55,223,116,0.6);
+    border-radius: 0.5rem;
+    line-height: 0.6rem;
+    color: #ffffff;
+    text-align: center;
+}
+

@@ -11,12 +11,11 @@
 .title img{
     width: 0.4rem;
     height: 0.4rem;
-    margin-left:0.2rem;
 }
 .title h2{
     font-size:0.36rem;
-    font-weight: 500;
-    margin-left:2.6rem;
+    display: block;
+    margin: 0 auto;
     color:#4ebbfe;
     font-weight: bolder;
 }
