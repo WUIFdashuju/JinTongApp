@@ -12,6 +12,26 @@ header{
     left: 0;
     z-index: 3;
 }
+header img{
+    display: block;
+    width: 0.4rem;
+    height: 0.4rem;
+    left:0.2rem;
+    position: absolute;
+    bottom: 0.27rem;
+}
+
+
+header p{
+
+    color:#4ebbfe;
+    position: absolute;
+    font-size: 0.36rem;
+    left: 2.97rem;
+    bottom: 0.27rem;
+
+}
+
 /*地址*/
 .info{
 

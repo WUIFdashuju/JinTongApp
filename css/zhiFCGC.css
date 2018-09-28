@@ -1,0 +1,321 @@
+header{
+    width: 7.5rem;
+    height: 1.26rem;
+    background-color: #fbfeff;
+    box-shadow: 0 0.03rem 0.43rem 0 rgba(41, 167, 255, 0.13);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+header img{
+    display: block;
+    width: 0.4rem;
+    height: 0.4rem;
+    left:0.2rem;
+    position: absolute;
+    bottom: 0.27rem;
+}
+
+
+header p{
+
+    color:#4ebbfe;
+    position: absolute;
+    font-size: 0.36rem;
+    left: 2.97rem;
+    bottom: 0.27rem;
+
+}
+
+/*支付成功模块*/
+.suc{
+
+    margin-top: 1.64rem;
+}
+.suc .img{
+    width: 1.08rem;
+    height: 0.81rem;
+   background-image: url("../img/ZFCGC1.png");
+    background-size: cover;
+    margin: 0 auto;
+
+}
+
+.tiS{
+    margin: 0.4rem  auto  0;
+    height:0.26rem;
+    margin-bottom: 0.21rem;
+    line-height: 0.4rem;
+    color: #4f5b64;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+}
+.tiS .yuan{
+    width: 0.1rem;
+    height: 0.06rem;
+    background-color: #34da87;
+    box-shadow: 0rem 0.02rem 0.05rem 0rem rgba(52, 218, 135, 0.43);
+    border-radius: 0.03rem;
+}
+.tiS .text{
+    font-size: 0.26rem;
+    margin: 0 0.11rem;
+}
+.tiS .text span{
+    color: #34da87;
+    font-size: 0.3rem;
+    font-weight: bold;
+}
+.suc h4 .text{
+    font-size: 0.26rem;
+    margin: 0 0.11rem;
+    text-align: center;
+    color: rgba(0,0,0,0.6);
+}
+.suc h4 .text span{
+    color: #ffd541;
+    font-size: 0.3rem;
+    font-weight: bold;
+}
+
+.suc .btn{
+    width: 4.55rem;
+    margin: 0.52rem auto;
+    display: flex;
+    justify-content: space-between;
+}
+.suc .btnL{
+     width: 1.96rem;
+     height: 0.6rem;
+     background-image: linear-gradient(to right, #37e06f 0%, #31d69a 100%);
+     box-shadow: 0rem 0.04rem 0.2rem 0rem rgba(55, 223, 116, 0.75);
+     border-radius: 0.3rem;
+     color: white;
+     text-align: center;
+    font-size: 0.2rem;
+     line-height: 0.6rem;
+ }
+.suc .btnR{
+    width: 1.96rem;
+    height: 0.6rem;
+    font-size: 0.2rem;
+    background-color: #3bacfe;
+    box-shadow: 0rem 0.05rem 0.12rem 0rem rgba(59, 172, 254, 0.43);
+    border-radius: 0.3rem;
+    color: white;
+    text-align: center;
+    line-height: 0.6rem;
+}
+
+/*推荐*/
+.user{
+    padding: 0.22rem 0.24rem;
+
+}
+.user .title1{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.user .title1 .icon{
+    width: 0.1rem;
+    height: 0.05rem;
+    color: #34da87;
+    box-shadow: 0 0.02rem 0.05rem 0 #34da87;
+    border-radius: 0.03rem;
+    margin-right: 0.1rem;
+}
+
+.user .title1 .usersp{
+
+    font-size: 0.32rem;
+    line-height: 0.4rem;
+
+    color: rgba(0,0,0,0.8);
+}
+.user .title1 .usersp span{
+    line-height: 0.4rem;
+    font-size: 0.32rem;
+    color: #34da87;
+
+
+}
+.user .title1 .look{
+    position: absolute;
+    right: 0.24rem;
+    font-size: 0.22rem;
+    line-height: 0.4rem;
+
+    color: #41b2fc;
+}
+
+.userpush{
+    padding: 0 0.24rem;
+    padding-bottom: 1.3rem;
+}
+.userpush ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.userpush ul li{
+    margin-top: 0.47rem;
+    width: 45%;
+    text-align: center;
+    position: relative;
+}
+.userpush ul li .icon{
+    width: 0.54rem;
+    height: 0.3rem;
+    background-image: url("../img/ZFCGC2.png");
+    background-size:cover ;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.userpush ul li img{
+    display: block;
+    width: 1.31rem;
+    height: 1.37rem;
+    margin: 0 auto;
+    margin-bottom: 0.37rem;
+}
+
+div.texT{
+    display: flex;
+    justify-content: space-between;
+}
+.userpush ul li h4{
+    font-size: 0.26rem;
+    color: rgba(0,0,0,0.6);
+
+
+}
+.userpush ul li p{
+
+    font-size: 0.28rem;
+    color: #fbb548;
+}
+.line{
+
+    width: 100%;
+    margin: 0.2rem   auto;
+    height: 0.02rem;
+    background-color: #d8dfe3;
+    opacity: 0.3;
+}
+.userpush .yiS{
+    display: flex;
+    justify-content: space-between;
+}
+.User{
+
+
+}
+.User .title1{
+   display: flex;
+    align-items: center;
+    position: relative;
+}
+.User .title1 .icon1{
+    width: 0.1rem;
+    height: 0.05rem;
+    color: #34da87;
+    box-shadow: 0 0.02rem 0.05rem 0 #34da87;
+    border-radius: 0.03rem;
+    margin-right: 0.1rem;
+}
+
+.User .title1 .usersp{
+
+    font-size: 0.22rem;
+    line-height: 0.4rem;
+
+    color: rgba(0,0,0,0.8);
+}
+.User .title1 .usersp span{
+    line-height: 0.4rem;
+    font-size: 0.22rem;
+    color: #36a8fe;
+
+
+}
+.User .title1 .look{
+    position: absolute;
+    right: 0.24rem;
+    font-size: 0.22rem;
+    line-height: 0.4rem;
+    color: #41b2fc;
+}
+
+
+.userpush .btn{
+    width: 100%;
+    margin: 0.06rem auto;
+    display: flex;
+    justify-content: space-between;
+}
+.userpush .btnL{
+    width: 1.21rem;
+    height: 0.35rem;
+    background-color: rgba(59,171,255,0.1);
+    border-radius: 0.3rem;
+    color: #36a8fe;
+    text-align: center;
+    font-size: 0.2rem;
+    line-height: 0.35rem;
+}
+.userpush .btnR{
+    width: 1.21rem;
+    height: 0.35rem;
+    font-size:  0.2rem;;
+    background-color: rgba(59,171,255,0.1);
+    border-radius: 0.3rem;
+    color: #36a8fe;
+    text-align: center;
+    line-height: 0.35rem;
+}
+/*底部开始*/
+footer{
+    background: white;
+    width:100%;
+    height: 1rem;
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 0.1rem 0.24rem 0;
+}
+footer ul{
+    background: white;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.24rem;
+}
+footer ul>a{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer ul li{
+    width: 0.5rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer ul li h3{
+    font-size: 0.24rem;
+    color: #a2deff;
+    position: fixed;
+    bottom: 0.1rem;
+}
+footer ul li h3.active{
+    color: #59c3fe;
+}

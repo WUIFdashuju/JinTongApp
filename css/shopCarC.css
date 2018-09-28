@@ -1,0 +1,206 @@
+header{
+    width: 7.5rem;
+    height: 1.26rem;
+    background-color: #fbfeff;
+    box-shadow: 0 0.03rem 0.43rem 0 rgba(41, 167, 255, 0.13);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+header img{
+    display: block;
+    width: 0.4rem;
+    height: 0.4rem;
+    left:0.2rem;
+    position: absolute;
+    bottom: 0.27rem;
+}
+
+
+header p{
+
+    color:#4ebbfe;
+    position: absolute;
+    font-size: 0.36rem;
+    left: 2.97rem;
+    bottom: 0.27rem;
+
+}
+
+/*图片*/
+.banner{
+    margin-top: 1.26rem;
+    width: 7.5rem;
+    height: 3.63rem;
+    position: relative;
+    background-image: url("../img/shopCarc.png");
+    background-size:cover;
+}
+.banner .goods{
+    position: absolute;
+    width: 1.64rem;
+    height: 1.64rem;
+    background-color: #fbfeff;
+    box-shadow: 0rem 0.03rem 0.43rem 0rem rgba(41, 167, 255, 0.13);
+    border-radius: 0.08rem;
+    border: solid 0.04rem #ffffff;
+    top: 3.03rem;
+    left: 0.33rem;
+
+
+
+}
+.banner .goods img{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    height: auto;
+}
+/*价钱*/
+.price{
+}
+.price .Jprice{
+   margin-left: 2.17rem;
+    margin-top: 0.78rem;
+    font-size: 0.36rem;
+    color: #36a8fe;
+    font-weight: bold;
+
+}
+.price .Jprice span{
+    font-size: 0.36rem;
+    color: #36a8fe;
+    font-weight: bold;
+}
+.price .guiG{
+    padding: 0 0.24rem ;
+    display: flex;
+    align-items: center;
+}
+.price .yuan{
+    width: 0.05rem;
+    height: 0.05rem;
+    background-color: #44b5ff;
+    box-shadow: 0rem 0.02rem 0.05rem 0rem rgba(68, 181, 255, 0.43);
+    border-radius: 0.03rem;
+    margin-right: 0.14rem;
+}
+.price .text{
+
+    font-size: 0.2rem;
+
+    color: #3bacfe;
+}
+.price .guiX{
+    width: 2.13rem;
+    height: 1.08rem;
+    background-color: #e7f6ff;
+    border-radius: 0.08rem;
+    opacity: 0.5;
+    color: #3bacfe;
+    font-size: 0.24rem;
+    margin-left: 0.24rem;
+    text-align: center;
+    line-height: 1.08rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+
+.price .count{
+    margin-top: 0.2rem;
+    display: flex;
+    padding-left: 0.24rem;
+
+}
+.price .count .btnL{
+    width: 1.18rem;
+    height: 0.52rem;
+    background-color:rgba(59,172,254,0.1);
+    border-radius: 0.26rem;
+    font-size: 0.3rem;
+    color:rgb(59,172,254);
+    text-align: center;
+    line-height: 0.52rem;
+}
+.price .count .shuZ{
+    width: 0.5rem;
+    height: 0.52rem;
+    color:rgb(59,172,254);
+    font-size: 0.26rem;
+    text-align: center;
+    line-height: 0.52rem;
+
+}
+.price .count .btnR{
+    width: 1.18rem;
+    color:rgb(59,172,254);
+
+    height: 0.52rem;
+    background-color:rgba(59,172,254,0.1);
+    border-radius: 0.36rem;
+    font-size: 0.26rem;
+    text-align: center;
+    font-weight: bold;
+    line-height: 0.52rem;
+
+}
+.price .count .active{
+    background-color: #3bacfe;
+    box-shadow: 0rem 0.05rem 0.12rem 0rem rgba(59, 172, 254, 0.43);
+    color: white;
+}
+
+/*底部*/
+.bottom{
+    width: 7.5rem;
+    height: 1.08rem;
+    background-color: #f1faff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.bottom .boxD{
+    opacity: 0;
+}
+.bottom .boxD img{
+    display: block;
+    width: 0.5rem;
+}
+.bottom .boxD .text{
+    font-size: 0.2rem;
+    color: rgba(59,172,254,0.6);
+    text-align: center;
+
+}
+.bottom .boxD .text1{
+    font-size: 0.2rem;
+    color: rgba(46,217,119,0.6);
+    text-align: center;
+
+}
+.bottom .btn{
+    width: 1.96rem;
+    height: 0.60rem;
+    background-image: linear-gradient(to right,#37e06f 0%,#31d69a 100%);
+    box-shadow: 0 0.04rem 0.2rem 0 rgba(55, 223, 116, 0.75);
+    border-radius: 30px;
+    color: white;
+    font-size: 0.24rem;
+    text-align: center;
+    line-height: 0.6rem;
+}
+.bottom .btn1{
+    width: 1.96rem;
+    height: 0.60rem;
+    border-radius: 30px;
+    color: white;
+    font-size: 0.24rem;
+    text-align: center;
+    line-height: 0.6rem;
+    background-color: #3bacfe;
+    box-shadow: 0rem 0.05rem 0.12rem 0rem  rgba(59, 172, 254, 0.43);
+}

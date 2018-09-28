@@ -1,4 +1,3 @@
-
 header{
     width: 7.5rem;
     height: 1.26rem;
@@ -9,6 +8,26 @@ header{
     left: 0;
     z-index: 3;
 }
+header img{
+    display: block;
+    width: 0.4rem;
+    height: 0.4rem;
+    left:0.2rem;
+    position: absolute;
+    bottom: 0.27rem;
+}
+
+
+header p{
+
+    color:#4ebbfe;
+    position: absolute;
+    font-size: 0.36rem;
+    left: 2.97rem;
+    bottom: 0.27rem;
+
+}
+
 .banner{
     margin-top: 1.26rem;;
     padding: 1.7rem 0 1.69rem;
