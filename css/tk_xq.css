@@ -1,0 +1,81 @@
+/*顶部开始*/
+.title{
+    width:100%;
+    height: 1rem;
+    line-height: 1rem;
+    display: flex;
+    align-items: center;
+    padding: 0 0.24rem;
+    box-shadow: 0 0 2rem 0.05rem rgba(41,167,255,0.13);
+}
+.title img{
+    width: 0.4rem;
+    height: 0.4rem;
+    margin-left:0.2rem;
+}
+.title h2{
+    font-size:0.36rem;
+    font-weight: 500;
+    margin-left:2.3rem;
+    color:#4ebbfe;
+}
+main {
+    height: 100%;
+    margin: 0 0.24rem;
+}
+main  .shop{
+    width: 100%;
+    height: 0.8rem;
+    /*background: rebeccapurple;*/
+    margin-top: 0.27rem;
+    border-bottom: 0.02rem solid #f1f4f5;
+}
+main .shop p{
+    font-size:0.3rem;
+    line-height: 0.8rem;
+    letter-spacing: 0.01rem;
+    color: #4f5b64;
+    text-align: center;
+}
+main  .djs{
+    width: 100%;
+    height: 0.8rem;
+    overflow: hidden;
+}
+main .djs .contai{
+    width: 3rem;
+    height: 0.5rem;
+    background: #fbb548;
+    margin:0.15rem auto 0.15rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main .djs .contai img{
+    display: block;
+}
+main .djs .contai .titler{
+    font-size: 0.26rem;
+    letter-spacing: 0.02rem;
+    line-height: 0.5rem;
+    color: #4f5b64;
+    text-align: center;
+}
+main .djs .contai .titler span{
+    font-size: 0.26rem;
+    color:#ff6666 ;
+}
+main .wenb{
+    width: 100%;
+    height: 3.8rem;
+    /*background: #36a8fe;*/
+    margin-top: 0.8rem;
+}
+main .wenb p{
+    width: 7.01rem;
+    height: 1rem;
+    font-size: 0.26rem;
+    letter-spacing: 0.01rem;
+    color: #7d7f7f;
+    padding-bottom: 0.27rem;
+}
