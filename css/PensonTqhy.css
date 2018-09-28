@@ -1,0 +1,190 @@
+/*顶部开始*/
+.title{
+    width:100%;
+    height: 1rem;
+    line-height: 1rem;
+    display: flex;
+    align-items: center;
+    padding: 0 0.24rem;
+    box-shadow: 0 0 2rem 0.05rem rgba(41,167,255,0.13);
+    position: relative;
+}
+.title img{
+    width: 0.4rem;
+    height: 0.4rem;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0.24rem;
+    margin: auto 0;
+}
+.title h2{
+    width: 100%;
+    text-align: center;
+    font-size:0.36rem;
+    font-weight: 500;
+    color:#4ebbfe;
+}
+/*内容上半部分开始*/
+main{
+    width: 100%;
+    height: 3.7rem;
+    background: url("../img/jzxbg.png") no-repeat;
+    background-size: 6.81rem 2.24rem;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+main .pTqhy{
+    width: 6.41rem;
+    height: 1.85rem;
+    background: #fff;
+    border-radius: 0.05rem;
+    margin: 0 auto;
+    margin-top: 0.32rem;
+    box-shadow: 0 0 0.2rem 0.05rem rgba(181,181,181,0.1);
+    padding:0 0.23rem 0.15rem 0.1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+main .pTqhy .pTqhys{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+main .pTqhy .pTqhys .pTqhyl{
+    display: flex;
+}
+main .pTqhy .pTqhys .pTqhyl .pTqhyT{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.38rem;
+}
+main .pTqhy .pTqhys .pTqhyl .pTqhyT .pHmei{
+    font-size: 0.3rem;
+    font-weight: bolder;
+    color: rgba(0,0,0,0.5);
+}
+main .pTqhy .pTqhys .pTqhyl .pTqhyT .pHmeiT{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.05rem;
+}
+main .pTqhy .pTqhys .pTqhyl .pTqhyT .pHmeiT .pDoot{
+    width: 0.05rem;
+    height: 0.05rem;
+    border-radius: 50%;
+    background: #29c99a;
+    margin-right: 0.05rem;
+}
+main .pTqhy .pTqhys .pTqhyl .pTqhyT .pHmeiT>p{
+    font-size: 0.22rem;
+    color: rgba(0,0,0,0.3);
+    font-weight: bold;
+}
+main .pTqhy .pTqhys .pTqhyl .pTqhyT .pHmeiT>h1{
+    font-size: 0.24rem;
+    color:#59bffe;
+    margin-left: 0.1rem;
+}
+main .pTqhy .pTqhys .pTqhyl .pTqhyT .pHmeiT>h2{
+    font-size: 0.24rem;
+    color:#e2e2e2;
+}
+main .pTqhy .pTqhys .pTqhyr{
+    margin-top: 0.38rem;
+    display: flex;
+}
+main .pTqhy .pTqhys .pTqhyr>h4{
+    font-size: 0.2rem;
+    color: #3bacfe;
+    margin-right: 0.07rem;
+}
+main .pTqhy .pTqhyx{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+main .pTqhy .pTqhyx>img{
+    width: 0.28rem;
+    height: 0.2rem;
+}
+main .pTqhy .pTqhyx>p{
+    font-size: 0.22rem;
+    font-weight: bold;
+    color: rgba(0,0,0,0.4);
+    margin-left: 0.1rem;
+}
+main .pTqhy .pTqhyx .pLenC{
+    width: 2.2rem;
+    height: 0.04rem;
+    background: linear-gradient(to right, #36acfe, #34e1c5);
+    margin-left: 0.2rem;
+}
+main .pTqhy .pTqhyx .pLenS{
+    width: 0.75rem;
+    height: 0.04rem;
+    background: #ddf3fe;
+    margin-right: 0.22rem;
+}
+
+/*中间内容部分开始*/
+.pConentJ{
+    margin-top: -1rem;
+    padding:0 0.24rem;
+}
+.pConentJ .pBoxBB{
+    margin-top: 0.3rem;
+    display: flex;
+}
+.pConentJ .pTextJx{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.pConentJ .pTextJx .pDotJ{
+    width: 0.1rem;
+    height: 0.05rem;
+    background: #44b5ff;
+    border-radius: 0.03rem;
+    box-shadow: 0 0.02rem 0.2rem 0.1rem rgba(68,181,255.0.6);
+    margin-right: 0.1rem;
+}
+.pConentJ .pTextJx>h2{
+    font-size: 0.32rem;
+    font-weight: bold;
+    color: rgba(0,0,0,0.6);
+}
+.pConentJ .pTextJx>h2>span{
+    font-size: 0.32rem;
+    font-weight: bold;
+    color: #44b5ff;
+}
+.pConentJ .pBlockJx{
+    margin-right: 0.2rem;
+}
+.pConentJ .pBlockJx .PteMk{
+    display: flex;
+    flex-direction: column;
+}
+.pConentJ .pBlockJx .PteMk>p{
+    font-size: 0.24rem;
+    color: #8e9397;
+    text-align: center;
+}
+.pHjia{
+    display: flex;
+    position: absolute;
+    right: 0;
+    top:0;
+    bottom: 0;
+    margin: auto 0;
+}
+
+.pHjia>h4{
+    font-size: 0.2rem;
+    color: rgba(0,0,0,0.4);
+    margin-right: 0.07rem;
+}
