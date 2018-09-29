@@ -15,7 +15,7 @@
 <!--头部-->
 <header>
     <!--<i class="iconfont "></i>-->
-    <img src="img/WHBack.png" alt="">
+    <a href="login_register.html"><img src="img/WHBack.png" alt=""></a>
     <div class="title">晋彤</div>
     <div class="title"></div>
 </header>
@@ -25,30 +25,30 @@
         <!--标题-->
         <div class="box">
             <div class="title">
-                用户注册
+                用户信息完善
             </div>
         </div>
         <!--输入姓名-->
         <div class="box1">
             <img src="img/WHperson.png" alt="" class="iconLock">
-            <input type="text" name="name" placeholder="请填写您的姓名" class="code">
+            <input type="text" name="name" onchange="tishi()" placeholder="请填写您的姓名" class="code code1">
         </div>
         <!--输入详细地址-->
         <div class="box1">
             <img src="img/WHinfo.png" alt="" class="iconLock">
-            <input type="text" name="info" placeholder="请填写您的详细住址" class="code">
+            <input type="text" name="info" onchange="tishi()" placeholder="请填写您的详细住址" class="code code2">
         </div>
         <!--输入账号-->
         <div class="box1">
             <div class="phone"><div class="screen"></div></div>
             <div class="iconNumber">+86</div>
-            <input type="text" name="name" placeholder="请填写手机号码" class="admin">
+            <input type="text" name="name" onchange="tishi()" placeholder="请填写手机号码" class="admin">
         </div>
 
         <!--重复输入您所在片区-->
         <div class="box1">
             <img src="img/WHreInfo.png" alt="" class="iconLock">
-            <input type="text" name="reInfo" placeholder="重复输入您所在的片区" class="code">
+            <input type="text" name="reInfo" onchange="tishi()"  placeholder="重复输入您所在的片区" class="code code3">
         </div>
         <!--提交-->
         <button class="bth" type="submit">提交</button>
@@ -66,5 +66,24 @@
     $("#radio").click(function () {
         $(this).next().click();
         $(this).toggleClass("action");
+    });
+
+    let tishi=function () {
+        let inputAdmin=$("input.admin").val();
+        let inputCode1=$("input.code1").val();
+        let inputCode2=$("input.code2").val();
+        let inputCode3=$("input.code3").val();
+        if(inputAdmin==="" || inputCode1==="" || inputCode2==="" || inputCode3==="" ){
+            $("button.bth").removeClass("action");
+        } else{
+            $(".bth").addClass("action");
+        }
+    };
+    $(".bth").click(function () {
+        if($(".bth").hasClass("action")){
+            window.open("login_quickly.html");
+        }else{
+            alert("请输入登录信息");
+        }
     });
 </script>

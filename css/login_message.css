@@ -26,7 +26,8 @@ main form{
 main form .box{
     width: 5.18rem;
     height: 0.63rem;
-    padding:0 1.5rem 0 2.0rem;
+    display:flex;
+    justify-content: center;
     margin-bottom: 0.47rem;
 }
 main form .box .title{
@@ -142,6 +143,12 @@ form .bth{
     font-stretch: normal;
     letter-spacing: 0.01rem;
     color: rgba(59,172,254,0.72);
+}
+form .bth.action{
+    background-color: #3bacfe;
+    box-shadow: 0 0.05rem 0.12rem 0
+    rgba(59, 172, 254, 0.43);
+    color: #ffffff;
 }
 form .radio{
     width: 0.25rem;

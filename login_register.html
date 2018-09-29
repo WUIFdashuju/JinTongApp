@@ -15,7 +15,7 @@
 <!--头部-->
 <header>
     <!--<i class="iconfont "></i>-->
-    <img src="img/WHBack.png" alt="">
+    <a href="login_WeChat.html"><img src="img/WHBack.png" alt=""></a>
     <div class="title">晋彤</div>
     <div class="title"></div>
 </header>
@@ -32,24 +32,24 @@
         <div class="box1">
             <div class="phone"><div class="screen"></div></div>
             <div class="iconNumber">+86</div>
-            <input type="text" name="name" placeholder="请填写手机号码" class="admin">
+            <input type="text" name="name" onchange="tishi()" placeholder="请填写手机号码" class="admin">
         </div>
         <!--获取验证码-->
         <div class="box1">
             <i class="iconDot"></i>
-            <input type="text" name="code" placeholder="短信验证码" class="code">
+            <input type="text" name="code" onchange="tishi()" placeholder="短信验证码" class="code code1">
             <button class="getCode">获取验证码</button>
         </div>
         <!--输入密码-->
         <div class="box1">
             <img src="img/WH_Icon_Lock.png" alt="" class="iconLock">
-            <input type="password" name="password" placeholder="请填写6-20位字母 数字的密码" class="code">
+            <input type="password" name="password" onchange="tishi()" placeholder="请填写6-20位字母 数字的密码" class="code code2">
 
         </div>
         <!--确认密码-->
         <div class="box1">
             <img src="img/WH_Icon_Lock.png" alt="" class="iconLock">
-            <input type="password" name="rePassword" placeholder="重复输入您的密码" class="code">
+            <input type="password" name="rePassword" onchange="tishi()" placeholder="重复输入您的密码" class="code code3">
 
         </div>
         <button class="bth" type="submit">提交</button>
@@ -67,5 +67,24 @@
     $("#radio").click(function () {
         $(this).next().click();
         $(this).toggleClass("action");
+    });
+
+    let tishi=function () {
+        let inputAdmin=$("input.admin").val();
+        let inputCode1=$("input.code1").val();
+        let inputCode2=$("input.code2").val();
+        let inputCode3=$("input.code3").val();
+        if(inputAdmin==="" || inputCode1==="" || inputCode2==="" || inputCode3==="" ){
+            $("button.bth").removeClass("action");
+        } else{
+            $(".bth").addClass("action");
+        }
+    };
+    $(".bth").click(function () {
+        if($(".bth").hasClass("action")){
+            window.open("login_message.html");
+        }else{
+            alert("请输入登录信息");
+        }
     });
 </script>

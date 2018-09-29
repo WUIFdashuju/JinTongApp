@@ -156,6 +156,27 @@ form .bth{
     letter-spacing: 0.01rem;
     color: rgba(59,172,254,0.72);
 }
+form .bth.action{
+    background-color: #3bacfe;
+    box-shadow: 0 0.05rem 0.12rem 0 rgba(59, 172, 254, 0.43);
+    color: #ffffff;
+}
+form .box1 input{
+    width: 5.19rem;
+    height: 0.7rem;
+    border: none;
+    position: absolute;
+    z-index: 1;
+}
+form .box1  img.iconLock{
+    position: absolute;
+    top:0.38rem;
+    left:0.04rem;
+    z-index: 2;
+}
+form .box1 input.code{
+    padding-left: 0.64rem;
+}
 form .radio{
     width: 0.25rem;
     height: 0.25rem;
