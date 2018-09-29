@@ -48,23 +48,32 @@
      left: 1.5rem;
      top: 0.3rem;
  }
+
 .img_assess .blue_stars{
     width: 2.8rem;
     height: 0.45rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    margin-right: 0.16rem;
     position: absolute;
     left: 1.5rem;
     top: 0.3rem;
 }
+.img_assess .stars>img{
+    z-index: 888;
+}
 .img_assess .blue_stars>img{
     display: none;
+    z-index: 999;
+    justify-content: flex-start;
+    margin-right: 0.16rem;
 }
 .img_assess .spans{
     width: 0.9rem;
     position: absolute;
     right:0.24rem;
     top: 0.4rem;
+    z-index: 999;
 }
 .img_assess .spans>span{
     font-size: 0.24rem;
@@ -183,19 +192,26 @@
     width: 2.8rem;
     height: 0.45rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     position: absolute;
     left: 1.5rem;
     top: 0.12rem;
 }
+.grade .logistics .stars>img{
+    z-index: 888;
+}
 .grade .logistics .blue_stars>img{
     display: none;
+    z-index: 999;
+    justify-content: flex-start;
+    margin-right: 0.16rem;
 }
 .grade .logistics .spans{
     width: 0.9rem;
     position: absolute;
     right:0rem;
     top: 0.23rem;
+    z-index: 999;
 }
 .grade .logistics .spans>span{
     font-size: 0.24rem;
@@ -227,16 +243,26 @@
     width: 2.8rem;
     height: 0.45rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     position: absolute;
     left: 1.5rem;
     top: 0.12rem;
+}
+.grade .attitude .stars>img{
+    z-index: 888;
+}
+.grade .attitude .blue_stars>img{
+    display: none;
+    z-index: 999;
+    justify-content: flex-start;
+    margin-right: 0.16rem;
 }
 .grade .attitude .blue_stars>img{
     display: none;
 }
 .grade .attitude .spans{
     width: 0.9rem;
+    z-index: 999;
     position: absolute;
     right:0rem;
     top: 0.23rem;
