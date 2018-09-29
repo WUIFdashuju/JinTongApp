@@ -1,7 +1,3 @@
-body{
-    height: 100%;
-    width: 100%;
-}
 /*顶部开始*/
 .title{
     width:100%;
@@ -25,7 +21,7 @@ body{
 .title h2{
     font-size:0.38rem;
     font-weight: 500;
-    margin-left:2.5rem;
+    margin-left:2.15rem;
     color:#4ebbfe;
     font-weight:600;
     font-stretch: normal;
@@ -33,128 +29,151 @@ body{
     letter-spacing: 0.02rem;
 
 }
-/*搜索框开始*/
-main{
+/*成功支付提示开始*/
+.success{
     width: 100%;
-    height: 100%;
-    /*background: greenyellow;*/
-    padding-top: 1rem;
-    padding-bottom: 1.3rem;
-    overflow: scroll;
-    }
-.sousuo{
-    width: 100%;
-    height: 0.8rem;
-    /*background:yellow;*/
-    padding: 0 0.24rem;
-
-
-}
-.sousuo .juxin{
-    width: 100%;
-    height: 0.6rem;
-    background-color: #ebf7ff;
-    border-radius: 0.3rem;
-    border: solid 0.03rem rgba(55, 169, 254, 0.17);
-    opacity: 0.58;
-    padding-top: 0.05rem;
-    padding-left: 0.2rem;
-    padding-right: 0.1rem;
-    display:flex;
-    justify-content: space-between;
-}
-.sousuo .juxin input{
-    border:none;
-    outline: none;
-    background: #ebf7ff;
-    opacity: 0.58;
-}
-.sousuo .juxin .click{
-    width: 0.79rem;
-    height: 0.44rem;
-    background-color: #a4e0bd;
-    border-radius: 0.21rem;
-}
-.sousuo .juxin .click img{
-    margin-left: 0.2rem;
-    margin-top: 0.03rem;
-}
-
-/*搜索框结束*/
-/*选择框开始*/
-.select{
-    padding: 0 0.24rem;
-    width: 100%;
-    height: 0.58rem;
+    height: 4.48rem;
     /*background: blue;*/
-
+    margin-top: 1.64rem;
+    /*padding: 0 0.24rem;*/
 }
-.select .select-all{
-    width: 4.49rem;
-    height: 0.52rem;
-    /*background: red;*/
+.success .one img{
+    width: 1.08rem;
+    height: 0.81rem;
     margin: 0 auto;
+}
+.success .two{
+    width: 100%;
+    height: 0.4rem;
+    margin-top: 0.2rem;
+    /*background: yellow;*/
     display: flex;
-    justify-content: space-between;
+    padding:0 2.36rem;
+    line-height: 0.4rem;
+
 }
-.select .select-all .select1{
-    width:1.33rem;
-    height: 0.52rem;
-    background-color: #E7F6FF;
-    /*box-shadow: 0 0.05rem 0.12rem 0*/
-    /*rgba(59, 172, 254, 0.43);*/
-    border-radius: 0.26rem;
-    /*opacity: 0.1;*/
-}
-.select .select-all .select1 .word
+.success .two p
 {
-    font-family: PingFangSC-Semibold;
-    font-size: 0.2rem;
-    font-weight: 600;
+    font-size:0.26rem;
+    font-weight: bold;
     font-stretch: normal;
-    letter-spacing: 0.01rem;
-    color: #3bacfe;
+    line-height: 0.4rem;
+    letter-spacing:0.02rem;
+    color: #4f5b64;
+}
+.success .two p span{
+    color: #32D796;
+    font-size: 0.3rem;
+    font-weight: 700;
+}
+.success .two img{
+    width: 0.2rem;
+    height: 0.1rem;
+    margin-top: 0.18rem;
+}
+.success .three{
+    width: 100%;
+    height: 0.4rem;
+    margin-top: 0.21rem;
+    /*background: pink;*/
+    display: flex;
+    padding:0 3.07rem;
+    line-height: 0.4rem;
+    /*text-align: center;*/
+
+}
+.success .three p
+{
+    font-size:0.26rem;
+    font-weight: bold;
+    font-stretch: normal;
+    line-height: 0.4rem;
+    letter-spacing:0.02rem;
+    color: #4f5b64;
+}
+.success .three p span{
+    color: #ffd541;
+    font-size: 0.3rem;
+    font-weight: 700;
+}
+.success .three p{
+    /*text-align: center;*/
+}
+.success .four{
+    display: flex;
+    margin-top: 0.52rem;
+    /*margin: 0.52rem auto 1.1rem auto;*/
+
+}
+.success .four .left
+{
+    width: 1.96rem;
+    height:0.6rem;
+    background-image: linear-gradient(90deg,
+    #37e06f 0%,
+    #31d69a 100%),
+    linear-gradient(
+            #3bacfe,
+            #3bacfe);
+    background-blend-mode: normal,
+    normal;
+    box-shadow: 0 0.04rem 0.2rem 0
+    rgba(55, 223, 116, 0.75);
+    border-radius:0.3rem;
+    font-size: 0.2rem;
+    font-weight: bold;
+    font-stretch: normal;
+    letter-spacing:0.01rem;
     text-align: center;
-    line-height: 0.52rem;
+    line-height: 0.6rem;
+    color: #ffffff;
+    margin-left: 1.47rem;
+}
+.success .four .right
+{
+    width: 1.96rem;
+    height:0.6rem;
+    background-color: #3bacfe;
+    box-shadow: 0 0.05rem 0.12rem 0
+    rgba(59, 172, 254, 0.43);
+    border-radius:0.3rem;
+    margin-left: 0.63rem;
+    text-align: center;
+    line-height: 0.6rem;
+    color: #ffffff;
 
 }
-/*选择框结束*/
-/*券开始*/
-.quan{
-    padding: 0.16rem 0.24rem;
-    height: 2.71rem;
-    /*background-color: yellow;*/
-
-}
-.quan .quan1{
+.success .five{
+    margin-top: 1.01rem;
     width:100%;
-    height:2.55rem;
-    /*background-color: blue;*/
-
+    height: 0.32rem;
+    /*background: yellow;*/
+    display: flex;
 }
-.quan .quan1 img{
-    width:100%;
-    height: 100%;
-    border-radius: 0.2rem;
+.success .five img{
+    width: 0.2rem;
+    height: 0.1rem;
+    margin-top: 0.15rem;
+    margin-left: 0.24rem;
 }
-/*券结束*/
-/*热门推荐开始*/
-.recommended{
-    width: 100%;
-    height: 0.73rem;
-    /*background-color: blue;*/
-    padding: 0.41rem 0.24rem;
-
-
+.success .five p{
+    font-size:0.32rem;
+    font-weight:bold;
+    font-stretch: normal;
+    line-height: 0.2rem;
+    letter-spacing:0.02rem;
+    color: #4f5b64;
+    line-height: 0.32rem;
+    /*padding-left: 0.2rem;*/
 }
-.recommended .recommended-in img{
-    width: 100%;
-    height: 100%;
-    display: block;
-
+.success .five p span{
+    font-size:0.32rem;
+    font-weight:bold;
+    letter-spacing:0.02rem;
+    color: #34da87;
 }
+/*成功支付提示结束*/
 
-/*热门推荐结束*/
 
 /*热门推荐商品开始*/
 .recommended-list
@@ -162,12 +181,14 @@ main{
     margin-bottom:0.5rem;
 }
 .recommended-list ul{
+    /*margin-top: 0.57rem;*/
     height: 8.44rem;
     padding: 0 0.24rem;
     display: flex;
     flex-wrap: wrap;
     /*align-content: space-between;*/
     justify-content: space-between;
+    margin-bottom: 2rem;
 }
 .recommended-list ul li{
     width:3.25rem;
@@ -336,7 +357,7 @@ main{
     background-blend-mode: normal,
     normal;
     box-shadow: 0 0.02rem 0.12rem 0
-    rgba(0.55, 2.23, 1.16, 0.75);
+    rgba(550, 223, 116, 750);
     border-radius: 0.15rem;
     text-align: center;
     color: #fff;
@@ -344,6 +365,7 @@ main{
     position: absolute;
     top:0;
     right: 0;
+    line-height: 0.3rem;
 }
 .recommended{
     margin-bottom: 1rem;

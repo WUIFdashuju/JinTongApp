@@ -20,6 +20,11 @@ $(function(){
     pay.click(function () {
         location.href="order_write.html";
     })
+    let cancel=$(".list_assess .sel_cancel");
+    cancel.click(function () {
+        location.href=" tk_tk.html";
+    })
+
     let assess=$(".list_assess .sel_pay");
     assess.click(function () {
         location.href="order_assess.html";

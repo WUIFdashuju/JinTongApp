@@ -314,6 +314,9 @@ body{
 /*添加文字描述结束*/
 
 /*商品金额开始*/
+.shop{
+    margin-bottom: 1.2rem;
+}
 .shop ul li{
     width: 100%;
     height: 0.85rem;
@@ -375,6 +378,9 @@ footer{
     display: flex;
     justify-content: space-between;
     padding: 0 0.36rem 0 0.21rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
 }
 footer .left{
     display: flex;
@@ -435,6 +441,9 @@ footer .right{
     letter-spacing: 0.01rem;
     text-align: center;
     line-height: 0.6rem;
+    border: none;
+    outline: none;
+    margin-top: 0.25rem;
 
 }
 /*底部结束*/
@@ -442,14 +451,17 @@ footer .right{
 /*优惠券弹出框开始*/
 .cover{
     width: 100%;
+    /*height: 0;*/
     height: 4.92rem;
-    background-color:yellow;
+    background-color:white;
     position: fixed;
     bottom: 0;
     left: 0;
+    /*opacity: 0;*/
     padding: 0 0.25rem 0 0.23rem;
-    box-shadow:0 0 0.1rem 100rem rgba(0 0 0 0);
+    box-shadow:0 0 0.1rem 100rem rgba(0,0,0,0.3);
     display: none;
+    z-index: 100;
 }
 .cover .top{
     width: 100%;
@@ -461,6 +473,7 @@ footer .right{
     letter-spacing:0.01rem;
     color: #41b2fc;
     text-align: center;
+    font-weight: bold;
 }
 
 .cover .bottom ul li{
@@ -469,7 +482,9 @@ footer .right{
     /*background: blue;*/
     display: flex;
     line-height: 0.63rem;
+    position: relative;
     /*border: 0.01rem solid red;*/
+    /*background-image: url("../img/");*/
 }
 .cover .bottom ul li .one{
     width: 0.2rem;
@@ -487,6 +502,7 @@ footer .right{
     font-stretch: normal;
     letter-spacing:0.01rem;
     color: #8a8c8d;
+    font-weight: bold;
 }
 .cover .bottom ul li p span
 {
@@ -495,12 +511,14 @@ footer .right{
     font-stretch: normal;
     letter-spacing:0.01rem;
     color: #8a8c8d;
+    font-weight: bold;
 }
 .cover .close{
     width: 7.49rem;
     height: 1.07rem;
     /*background-color: #f1faff;*/
-    margin-top: 0.5rem;
+    /*margin-top: 0.5rem;*/
+    margin: 0.5rem auto;
 }
 .cover .close .list{
     width: 4.45rem;
@@ -517,9 +535,11 @@ footer .right{
     rgba(55, 223, 116, 0.75);
     border-radius: 0.3rem;
     margin:0.7rem auto;
+    margin: 0 auto;
     color: #fff;
     text-align: center;
     line-height: 0.6rem;
+    font-weight: bold;
 }
 .cover .cuo{
     width:0.24rem;
@@ -528,9 +548,18 @@ footer .right{
     position: absolute;
     right:0.25rem;
     top:0.23rem;
+    /*z-index: 200;*/
 }
 .cover .cuo img{
     width: 100%;
     height: 100%;
+}
+.cover .bottom .active{
+   background-image: url("../img/hxh-12.png");
+   background-position: right ;
+    background-repeat: no-repeat;
+    /*position: absolute;*/
+    /*top:0;*/
+    /*right: 0;*/
 }
 /*优惠券弹出框结束*/

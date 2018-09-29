@@ -52,9 +52,13 @@
 .sale ul li .down{
     width: 0.17rem;
     height: 0.1rem;
-    background: green;
-    margin: auto 0.09rem;
+    /*background: green;*/
+    margin:0.4rem 0.1rem;
 
+}
+.sale ul li .down
+{
+    color: #4ebbfe;
 }
 .sale ul li p
 {
@@ -63,7 +67,7 @@
     font-stretch: normal;
     letter-spacing:0.01rem;
     line-height:1.14rem;
-    color: #36d681;
+    color: #4ebbfe;
 }
 /*销量结束*/
 
@@ -275,3 +279,34 @@ main ul li .right .four .four-right
     font-weight: 600;
 }
 /*列表结束*/
+
+
+
+/*块开始*/
+.kuai{
+    width: 100%;
+    /*height: 0;*/
+    height: 2.07rem;
+    background:white;
+    position: absolute;
+    top:2rem;
+    left: 0;
+    padding: 0 0.89rem;
+    display: none;
+}
+.kuai ul li{
+    width: 100%;
+    height: 0.69rem;
+    border-bottom: 0.01rem solid #f1f4f5;
+    line-height: 0.69rem;
+    font-size: 0.24rem;
+    font-weight:bold;
+    font-stretch: normal;
+    letter-spacing:0.01rem;
+    color: #000000;
+}
+.kuai ul li:nth-child(3){
+    border-bottom: none;
+}
+
+/*块结束*/

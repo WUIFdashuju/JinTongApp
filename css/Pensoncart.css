@@ -153,12 +153,34 @@ main .pSltD .pSltDr{
     bottom: 1.5rem;
     left:0;
 }
-.pChoose .pGrayC{
+.pChoose .pGrayCi{
     width: 0.24rem;
     height: 0.24rem;
     background: #e7f6ff;
     border-radius: 50%;
     margin-right: 0.3rem;
+}
+.pGrayC .pGrayCyes{
+    color: #e7f6ff;
+    font-size: 0.1rem;
+    margin-left: 0.04rem;
+}
+.pChoose .pGrayCyes{
+    color: #e7f6ff;
+    font-size: 0.1rem;
+    margin-left: 0.04rem;
+}
+main .pSlt .pShead .pGrayC.activeJ{
+    background: linear-gradient(to right, #3be172, #36d79b);
+    box-shadow: 0 0.02rem 0.1rem 0.05rem rgba(122,255,155,0.4);
+}
+main .pSltZ .pSltL .pGrayC.activeJ{
+    background: linear-gradient(to right, #3be172, #36d79b);
+    box-shadow: 0 0.02rem 0.1rem 0.05rem rgba(122,255,155,0.4);
+}
+.pChoose .pGrayCi.activeJ{
+    background: linear-gradient(to right, #3be172, #36d79b);
+    box-shadow: 0 0.02rem 0.1rem 0.05rem rgba(122,255,155,0.4);
 }
 .pChoose>p{
     font-size: 0.24rem;
@@ -236,3 +258,4 @@ footer .pFootR{
     line-height: 0.6rem;
     box-shadow: 0 0.02rem 0.1rem 0.05rem rgba(122,255,155,0.4);
 }
+

@@ -160,7 +160,6 @@
 }
 .merce .right .talk{
     display: flex;
-    justify-content: space-around;
 }
 .merce .right .talk .left{
     width: 2.04rem;
@@ -175,7 +174,7 @@
     color: #36a8fe;
     text-align: center;
 }
-.merce .right .talk .right{
+.zixun{
     width: 1.24rem;
     height: 0.45rem;
     background-color: #3bacfe;
@@ -188,6 +187,9 @@
     letter-spacing: 0.01rem;
     color: #ffffff;
     text-align: center;
+    position: absolute;
+    right: 0.3rem;
+    bottom: 0.52rem;
 }
 .BigBox{
     padding-left: 0.24rem;
@@ -350,6 +352,11 @@
     color: #000000;
     opacity: 0.6;
 }
-.BigBox .user li .right>.text2{
-
+.BigBox .user li .right>.text2 span{
+    font-size: 0.22rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.32rem;
+    letter-spacing: 0.01rem;
+    color: rgba(0,0,0,0.3);
 }
