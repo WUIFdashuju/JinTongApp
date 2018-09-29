@@ -16,12 +16,10 @@ window.onload=function(){
         click1[i].onclick=function(){
             for(let j=0;j<click1.length;j++){
                 click1[j].classList.remove("boxactive");
-                blue[j].classList.remove("libottom");
                 p1[j].classList.remove("active");
                 foot[j].style.display="none";
             }
             click1[i].classList.add("boxactive");
-            blue[i].classList.add("libottom");
             p1[i].classList.add("active");
             foot[i].style.display="block";
         }
