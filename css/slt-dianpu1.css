@@ -118,6 +118,9 @@ main{
     line-height: 0.52rem;
 
 }
+.select .select-all .select2 a{
+    color: #fff;
+}
 /*选择框结束*/
 /*券开始*/
 .quan{
