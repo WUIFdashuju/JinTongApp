@@ -13,7 +13,7 @@
 <body>
     <!--头部-->
     <header>
-        <img src="img/left.png" alt="">
+        <a href="shopC.html"><img src="img/left.png" alt=""></a>
         <p>购物车</p>
     </header>
 
@@ -46,7 +46,7 @@
         <div class="count">
             <div class="btnL">-</div>
             <div class="shuZ">01</div>
-            <div class="btnR active">+</div>
+            <div class="btnR">+</div>
         </div>
     </div>
 
@@ -68,3 +68,32 @@
 
 </body>
 </html>
+<script>
+    let btnL = $(".count .btnL");
+    let btnR = $(".count .btnR");
+    let shuZ = $(".count .shuZ");
+    let num = 0;
+    let span = $(".Jprice span");
+    shuZ.html(num);
+    span.html(num*162);
+
+    btnR.click(function () {
+        num ++ ;
+        btnL.removeClass("active");
+        $(this).addClass("active");
+        shuZ.html(num);
+        span.html(num*162);
+
+    })
+    btnL.click(function () {
+        num -- ;
+        if (num <= 0){
+            num = 0;
+        }
+        btnR.removeClass("active");
+        $(this).addClass("active");
+        shuZ.html(num);
+        span.html(num*162);
+
+    })
+</script>

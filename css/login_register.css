@@ -143,6 +143,12 @@ form .bth{
     letter-spacing: 0.01rem;
     color: rgba(59,172,254,0.72);
 }
+form .bth.action{
+    background-color: #3bacfe;
+    box-shadow: 0 0.05rem 0.12rem 0
+    rgba(59, 172, 254, 0.43);
+    color: #ffffff;
+}
 form .radio{
     width: 0.25rem;
     height: 0.25rem;
