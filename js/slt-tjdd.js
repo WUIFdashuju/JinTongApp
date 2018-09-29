@@ -45,45 +45,47 @@ $(function () {
             i=1;
             $(".order .shuzi").text(`01`);
         }
+        $(".shop .right .sixty").text(`${i*60}`);
+        $("footer .left .price").text(`${i*60}`);
 
     })
 
 
 
     //填写地址
-    $(".zeng").click(function () {
-        $(".address").css("display","none");
-        $(".clear").css("display","none");
-        $(".address1").css("display","none");
-        $(".new").css("display","none");
-        $(".imassage").css("display","block");
-        $(".imassage1").css("display","block");
-        $(".save").css("display","block");
-        $(".add").css("display","none");
-        $(".tu").css("display","none");
-        $(".zeng").css("display","none");
-    })
-    $(".new").click(function () {
-        $(".address").css("display","none");
-        $(".clear").css("display","none");
-        $(".address1").css("display","none");
-        $(".new").css("display","none");
-        $(".imassage").css("display","block");
-        $(".imassage1").css("display","block");
-        $(".save").css("display","block");
-        $(".add").css("display","none");
-        $(".tu").css("display","none");
-        $(".zeng").css("display","none");
-    })
-    $(".save").click(function () {
-        $(".imassage").css("display","none");
-        $(".imassage1").css("display","none");
-        $(".save").css("display","none");
-        $(".address").css("display","flex");
-        $(".clear").css("display","flex");
-        $(".address1").css("display","flex");
-        $(".new").css("display","block");
-    })
+    // $(".zeng").click(function () {
+    //     $(".address").css("display","none");
+    //     $(".clear").css("display","none");
+    //     $(".address1").css("display","none");
+    //     $(".new").css("display","none");
+    //     $(".imassage").css("display","block");
+    //     $(".imassage1").css("display","block");
+    //     $(".save").css("display","block");
+    //     $(".add").css("display","none");
+    //     $(".tu").css("display","none");
+    //     $(".zeng").css("display","none");
+    // })
+    // $(".new").click(function () {
+    //     $(".address").css("display","none");
+    //     $(".clear").css("display","none");
+    //     $(".address1").css("display","none");
+    //     $(".new").css("display","none");
+    //     $(".imassage").css("display","block");
+    //     $(".imassage1").css("display","block");
+    //     $(".save").css("display","block");
+    //     $(".add").css("display","none");
+    //     $(".tu").css("display","none");
+    //     $(".zeng").css("display","none");
+    // })
+    // $(".save").click(function () {
+    //     $(".imassage").css("display","none");
+    //     $(".imassage1").css("display","none");
+    //     $(".save").css("display","none");
+    //     $(".address").css("display","flex");
+    //     $(".clear").css("display","flex");
+    //     $(".address1").css("display","flex");
+    //     $(".new").css("display","block");
+    // })
 
 
 
