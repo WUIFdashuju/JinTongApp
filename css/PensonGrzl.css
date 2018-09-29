@@ -1,0 +1,107 @@
+body{
+    background: #fbfeff;
+}
+/*顶部开始*/
+.title{
+    width:100%;
+    height: 1rem;
+    line-height: 1rem;
+    display: flex;
+    align-items: center;
+    padding: 0 0.24rem;
+    box-shadow: 0 0 2rem 0.05rem rgba(41,167,255,0.13);
+    position: relative;
+    margin-bottom: 0.27rem;
+}
+.title img{
+    width: 0.4rem;
+    height: 0.4rem;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0.24rem;
+    margin: auto 0;
+}
+.title h2{
+    width: 100%;
+    font-size:0.36rem;
+    font-weight: 500;
+    text-align: center;
+    color:#4ebbfe;
+}
+/*内容部分开始*/
+main{
+    width: 100%;
+    padding:0 0.24rem;
+}
+main .pBoxJ{
+    width: 100%;
+    height: 0.93rem;
+    border-bottom: 0.02rem solid #f6f9fa;
+    display: flex;
+    justify-content: space-between;
+}
+main .pBoxJ .pBoxJl{
+    display: flex;
+    align-items: center;
+}
+main .pBoxJ .pBoxJl .pBoxDot{
+    width: 0.1rem;
+    height: 0.05rem;
+    border-radius: 0.03rem;
+    background: #44b5ff;
+    box-shadow: 0 0.02rem 0.1rem 0.02rem rgba(68,181,255,0.3);
+    margin-right: 0.14rem;
+}
+main .pBoxJ .pBoxJl>h2{
+    font-size: 0.28rem;
+    font-weight: bold;
+    color:rgba(0,0,0,0.5);
+}
+main .pBoxJ .pBoxJr{
+    display: flex;
+    align-items: center;
+}
+main .pBoxJ .pBoxJr>h3{
+     font-size: 0.28rem;
+     font-weight: bold;
+     color: rgba(0,0,0,0.7);
+ }
+main .pBoxJ .pBoxJr>h1{
+    font-size: 0.3rem;
+    font-weight: bold;
+    color: #36a8fe;
+}
+main .pBoxJ .pBoxJrl{
+    width: 0.57rem;
+    height: 0.57rem;
+    background: linear-gradient(to right, #37e06f, #32d699);
+    border-radius: 0.08rem;
+    position: relative;
+    box-shadow: 0 0.02rem 0.1rem 0.03rem rgba(55,224,111,0.3);
+}
+main .pBoxJ .pBoxJrl>img{
+    display: block;
+    width: 0.29rem;
+    height: 0.25rem;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+main .pSaveX{
+    width: 4.54rem;
+    height: 0.6rem;
+    border-radius: 0.3rem;
+    background: linear-gradient(to right, #37e06f, #32d69a);
+    font-size: 0.2rem;
+    color: #fff;
+    text-align: center;
+    line-height: 0.6rem;
+    margin:0 auto;
+    margin-top: 1.18rem;
+    box-shadow: 0 0.03rem 0.2rem 0.05rem rgba(55,224,111,0.4);
+}
+/*底部开始*/

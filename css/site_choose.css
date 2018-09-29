@@ -1,0 +1,155 @@
+header{
+    width: 7.5rem;
+    height: 2.05rem;
+    padding-top:0.4rem;
+    background-color: #fbfeff;
+    box-shadow: 0 0.03rem 0.43rem 0 rgba(41, 167, 255, 0.13);
+}
+header .headerTop{
+    width: 7.5rem;
+    height: 0.82rem;
+    padding: 0.02rem 0.24rem 0.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .headerTop .title{
+    display: flex;
+    width: 1.6rem;
+    height: 0.4rem;
+    font-size: 0.38rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.4rem;
+    letter-spacing: 0.02rem;
+    color: #4ebbfe;
+}
+header .headerBottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .headerBottom .select{
+    display:block;
+    margin-top:0.1rem ;
+    width: 0.9rem;
+    height: 0.27rem;
+    border: none;
+    font-size: 0.28rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.4rem;
+    letter-spacing: 0.01rem;
+    color: #36a8fe;
+    background-color: #fbfeff;
+
+}
+header .headerBottom .select span{
+    float: left;
+    line-height: 0.47rem;
+}
+header .headerBottom .select i{
+    float: left;
+    margin-left: 0.05rem;
+    font-size: 0.1rem;
+    line-height: 0.47rem;
+
+}
+header .headerBottom form{
+    position:relative;
+    display: flex;
+    justify-content: space-between;
+}
+header .headerBottom form img.search{
+    position: absolute;
+    right:0.19rem;
+    top:0.1rem;
+}
+header .headerBottom form input{
+    width: 5.93rem;
+    height: 0.6rem;
+    background-color: #ebf7ff;
+    border-radius: 0.3rem;
+    border: solid 0.03rem rgba(55, 169, 254, 0.17);
+    opacity: 0.58;
+    padding-left: 0.37rem;
+    outline: none;
+}
+input::-webkit-input-placeholder{
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.4rem;
+    letter-spacing: 0.01rem;
+    color: #c8d9e6;
+}
+main .info{
+    width: 7.5rem;
+    height: 4.79rem;
+}
+main .content{
+    padding:0 0.26rem;
+}
+main .content .head{
+    height: 0.94rem;
+    padding: 0.37rem 0 0.25rem 0.21rem;
+    font-size: 0.32rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.4rem;
+    letter-spacing: 0.02rem;
+    color: #4f5b64;
+    position: relative;
+    border-bottom: 0.02rem solid rgba(0,0,0,0.05);
+}
+main .content .head span{
+    font-size: 0.32rem;
+    font-weight: normal;
+    color: #41b2fc;
+}
+main .content .head .tab{
+    position: absolute;
+    top:0.37rem;
+    bottom:0;
+    left:0;
+    margin:auto;
+    width: 0.1rem;
+    height: 0.05rem;
+    background-color: #44b5ff;
+    box-shadow: 0 0.02rem 0.05rem 0 rgba(68, 181, 255, 0.43);
+    border-radius: 0.03rem;
+}
+main .content ul{
+    margin-top: 0.46rem;
+}
+main .content ul li{
+    height: 0.65rem;
+    margin-left: 0.01rem;
+    padding-left: 0.22rem;
+    position: relative;
+    margin-bottom: 0.58rem;
+}
+main .content ul li h3{
+    font-size: 0.3rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: rgba(0,0,0,0.6);
+}
+main .content ul li p{
+    font-size: 0.22rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color:rgba(0,0,0,0.3);
+}
+main .content ul li .infoDot{
+    width: 0.08rem;
+    height: 0.08rem;
+    position:absolute;
+    border-radius: 50%;
+    left:0;
+    top:0.18rem;
+    background-color: #37ce9a;
+    box-shadow: 0 0.02rem 0.05rem 0 rgba(55, 206, 154, 0.43);
+}

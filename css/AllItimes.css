@@ -1,0 +1,355 @@
+.header {
+    height: 4.56rem;
+    background-color: #fbfeff;
+    box-shadow:0 6px 21px 0 rgba(41, 167, 255, 0.13);
+    padding-top: 0.25rem;
+    padding-left: 0.24rem;
+    padding-right: 0.24rem;
+    margin-bottom: 0.49rem;
+    position: fixed;
+    top: 0;
+    width: 7.5rem;
+}
+.header .top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .top .back{
+    width: 0.25rem;
+    height: 0.42rem;
+    background-image: url(../img/left.png);
+    background-position: center;
+    background-size: cover;
+}
+.header .top .title{
+    height: 0.36rem;
+    font-size: 0.38rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.40rem;
+    letter-spacing: 0.02rem;
+    color: #4ebbfe;
+    margin: 0 auto;
+    text-align: center;
+    padding-left: 0.58rem;
+}
+.header .top .more{
+    width: 0.45rem;
+}
+.header .top .more ul {
+    display: flex;
+    justify-content: space-between;
+}
+.header .top .more ul li{
+    width: 0.08rem;
+    height: 0.08rem;
+    border-radius: 50%;
+    background-color: #36a8fe;
+}
+.header>.right{
+    position: relative;
+    margin: 0.24rem auto 0.51rem;
+}
+.header .right input{
+    width: 7.12rem;
+    height: 0.6rem;
+    background-color: #ebf7ff;
+    border-radius: 0.3rem;
+    border: solid 0.03rem rgba(55, 169, 254, 0.17);
+    opacity: 0.58;
+    padding: 0 0.3rem 0;
+    font-size: 0.24rem;
+}
+.header>.right img{
+    position: absolute;
+    top: 0.08rem;
+    right: 0.3rem;
+
+}
+.title{
+    margin-top: 5.03rem;
+}
+.title .bottom{
+    margin-top: 0.52rem;
+}
+.title .bottom ul{
+    display: flex;
+    justify-content: space-around;
+    margin: 0.2rem 1.4rem 0;
+}
+.title .bottom ul li{
+    font-size: 0.22rem;
+    width: 1.33rem;
+    height: 0.52rem;
+    line-height: 0.52rem;
+    color: #3bacfe;
+    background-color: rgba(59,172,254,0.1);
+    border-radius: 0.26rem;
+    text-align: center;
+}
+.title .bottom ul li.active{
+    background-color: rgba(59,172,254,0.8);
+    box-shadow: 0 0.05rem 0.12rem 0
+    rgba(59, 172, 254, 0.43);
+    border-radius: 0.26rem;
+    color: #ffffff;
+}
+.merce{
+    display: flex;
+    justify-content: space-between;
+}
+.merce>.left{
+    width: 1.97rem;
+    height: 1.97rem;
+    box-shadow: 0 0.01rem 0.21rem 0 rgba(223, 223, 223, 0.43);
+    border-radius: 0.1rem;
+    background-color:#ffffff;
+    padding-top: 0.3rem;
+}
+.merce .left img{
+
+    width: 1.2rem;
+    height: 1.4rem;
+    margin: 0 auto;
+}
+.merce .right{
+    width: 4.78rem;
+    height: 1.97rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.merce .right .title1{
+    height: 0.29rem;
+    font-size: 0.3rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #000000;
+    opacity: 0.6;
+}
+.merce .right .title3{
+    display: flex;
+    justify-content: space-between;
+}
+.merce>.right .title3 .valutare,.merce>.right .title3 .sale,.merce>.right .title3 .good{
+    font-size: 0.2rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color:rgba(0,0,0,0.3);
+}
+.merce .right .title3 span{
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #36a8fe;
+    opacity: 1;
+}
+.merce .right .time{
+    color: #a4e0bd;
+}
+.merce .right .time span{
+    font-size: 0.2rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #a4e0bd;
+}
+.merce .right .talk{
+    display: flex;
+    justify-content: space-around;
+}
+.merce .right .talk .left{
+    width: 2.04rem;
+    height: 0.35rem;
+    line-height: 0.35rem;
+    background-color: rgba(59,171,255,0.1);
+    border-radius: 0.18rem;
+    font-size: 0.2rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #36a8fe;
+    text-align: center;
+}
+.merce .right .talk .right{
+    width: 1.24rem;
+    height: 0.45rem;
+    background-color: #3bacfe;
+    box-shadow: 0 0.05rem 0.12rem rgba(59, 172, 254, 0.43);
+    border-radius: 0.23rem;
+    font-size: 0.2rem;
+    line-height: 0.45rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #ffffff;
+    text-align: center;
+}
+.BigBox{
+    padding-left: 0.24rem;
+    padding-right: 0.24rem;
+    margin-top: 0.37rem;
+    display: none;
+}
+.BigBox ul.menu  li{
+    height: 1.97rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.32rem;
+}
+.BigBox .menu .left{
+    width: 1.97rem;
+    height: 1.97rem;
+    box-shadow: 0 0.01rem 0.21rem 0 rgba(223, 223, 223, 0.43);
+    border-radius: 0.1rem;
+    background-color:#ffffff;
+    padding-top: 0.3rem;
+}
+.BigBox .menu .left img{
+
+    width: 1.2rem;
+    height: 1.4rem;
+    margin: 0 auto;
+}
+.BigBox .menu .right{
+    width: 4.78rem;
+    height: 1.97rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.BigBox .menu .right .title1{
+    height: 0.29rem;
+    font-size: 0.3rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #000000;
+    opacity: 0.6;
+}
+.BigBox .menu .right .title2{
+    height: 0.32rem;
+    font-size: 0.22rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.32rem;
+    letter-spacing: 0.01rem;
+    color: #000000;
+    opacity: 0.3;
+    margin: 0.15rem 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.BigBox .menu .right hr{
+    width: 4.76rem;
+    height: 0.01rem;
+    background-color: #d8dfe3;
+    opacity: 0.3;
+}
+.BigBox .menu .right .title3{
+    display: flex;
+    justify-content: space-between;
+}
+.BigBox .menu .right .title3 .valutare,.BigBox .menu .right .title3 .sale{
+    font-size: 0.2rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color:rgba(0,0,0,0.3);
+}
+.BigBox .menu .right .title3 span{
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #36a8fe;
+    opacity: 1;
+}
+.BigBox .menu .right .title4{
+    display: flex;
+}
+.BigBox .menu .right .title4 .logo img{
+    width: 0.3rem;
+    height: 0.3rem;
+}
+.BigBox .menu .right .title4 .name{
+    font-size: 0.2rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #cfcfcf;
+    margin-left: 0.08rem;
+}
+.BigBox>.top{
+    display: flex;
+    justify-content: space-between;
+}
+.BigBox>.top>li>p{
+    font-size: 0.16rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #3bacfe;
+    text-align: center;
+}
+.BigBox>.top>li>.active2{
+    width: 1.32rem;
+    height: 0.07rem;
+    background-color: #3bacfe;
+    opacity: 1;
+}
+.BigBox .user{
+    padding: 0.32rem 0.24rem 0;
+}
+.BigBox .user li{
+    display: flex;
+    justify-content: space-between;
+    height: 1.45rem;
+}
+.BigBox .user li .left{
+    width: 0.85rem;
+    height: 0.85rem;
+}
+.BigBox .user li .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 0.31rem;
+}
+.BigBox .user li .right>.text1{
+    display: flex;
+    justify-content: space-between;
+}
+.BigBox .user li .right>.text1 .name{
+    font-size: 0.2rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #cfcfcf;
+}
+.BigBox .user li .right>.text1 .star{
+    font-size: 0.2rem;
+}
+.BigBox .user li .right>.text1 .time{
+    font-size: 0.22rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #9ed5ff;
+}
+.BigBox .user li>.right>p{
+    font-size: 0.26rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #000000;
+    opacity: 0.6;
+}
+.BigBox .user li .right>.text2{
+
+}

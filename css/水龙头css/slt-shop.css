@@ -121,12 +121,12 @@
 }
 .content .right .two .first .pf{
     font-size: 0.26rem;
-    margin-left: 0.12rem;
+    /*margin-left: 0.03rem;*/
     font-family: SanFranciscoDisplay-Bold;
     font-weight: bold;
     font-stretch: normal;
     color: #36a8fe;
-    margin-top: -0.04rem;
+    margin-top: -0.03rem;
 }
 .content .right .two .second{
     margin-left: 0.4rem;
