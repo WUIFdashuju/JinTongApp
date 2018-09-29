@@ -1,0 +1,312 @@
+/*顶部开始*/
+.title{
+    width:100%;
+    height: 1rem;
+    line-height: 1rem;
+    display: flex;
+    align-items: center;
+    padding: 0 0.24rem;
+    box-shadow: 0 0 2rem 0.05rem rgba(41,167,255,0.13);
+    position: fixed;
+    top:0;
+    left: 0;
+    background: white;
+    z-index: 99;
+}
+.title img{
+    width: 0.4rem;
+    height: 0.4rem;
+    margin-left:0.2rem;
+}
+.title h2{
+    font-size:0.38rem;
+    font-weight: 500;
+    margin-left:2.2rem;
+    color:#4ebbfe;
+    font-weight:600;
+    font-stretch: normal;
+    line-height: 0.4rem;
+    letter-spacing: 0.02rem;
+
+}
+/*顶部结束*/
+
+/*销量开始*/
+.sale{
+    width: 100%;
+    height:1.14rem;
+    /*background: yellow;*/
+    margin-top: 1rem;
+    padding: 0 0.91rem 0 0.89rem;
+    box-shadow: 0 0 2rem 0.05rem rgba(41,167,255,0.13);
+}
+.sale ul{
+    display: flex;
+}
+.sale ul li{
+
+    display: flex;
+    width: 2rem;
+    margin-left: 0.3rem;
+}
+.sale ul li .down{
+    width: 0.17rem;
+    height: 0.1rem;
+    /*background: green;*/
+    margin:0.4rem 0.1rem;
+
+}
+.sale ul li .down
+{
+    color: #4ebbfe;
+}
+.sale ul li p
+{
+    font-size:0.26rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing:0.01rem;
+    line-height:1.14rem;
+    color: #4ebbfe;
+}
+/*销量结束*/
+
+/*列表开始*/
+
+main{
+    margin-top: 0.7rem;
+    background: #FBFEFF;
+    padding: 0 0.32rem 0 0.35rem;
+}
+main ul li{
+    width: 100%;
+    height:1.74rem;
+
+    margin-bottom: 0.66rem;
+    display: flex;
+}
+main ul li .left{
+    width: 1.74rem;
+    height: 1.74rem;
+    background: #fff;
+
+}
+main ul li .left img{
+    width: 1.18rem;
+    height: 1.18rem;
+    display:block;
+    margin:0.28rem;
+}
+main ul li .right{
+    width: calc(100% - 1.7rem);
+}
+main ul li .right .one{
+    display: flex;
+}
+main ul li .right .one .qian
+{
+    font-size: 0.3rem;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #646666;
+    font-weight: 600;
+}
+main ul li .right .one .E
+{
+    font-size0.28rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #B5B7B8;
+    padding-left: 0.14rem;
+    font-weight: 600;
+}
+main ul li .right .two{
+    display: flex;
+    height: 0.4rem;
+    /*height: 0.66rem;*/
+    /*height: 0.21rem;*/
+}
+main ul li .right .two .two-left{
+    display: flex;
+}
+main .dian{
+    width: 0.2rem;
+    height: 0.2rem;
+    /*background: red;*/
+    margin: auto 0;
+}
+main .dian img{
+    width: 100%;
+    height:100%;
+    display: block;
+    margin-top: 0.02rem;
+}
+
+main ul li .right .two .two-left .ping
+{
+    font-size:0.22rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing:0.01rem;
+    color: #B9BBBC;
+    font-weight: 600;
+    line-height: 0.4rem;
+}
+main ul li .right .two .two-left .wu
+{
+    font-size: 0.26rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #36a8fe;
+    font-weight: 600;
+    margin-left: 0.12rem;
+    line-height: 0.4rem;
+
+}
+main ul li .right .two .two-right{
+    display: flex;
+}
+main .dian1{
+    width: 0.2rem;
+    height: 0.2rem;
+    /*background: blue;*/
+    margin:auto 0 auto 0.53rem;
+}
+main .two .dian1 img{
+    width: 100%;
+    height:100%;
+    margin-top: 0.02rem;
+}
+main ul li .right .two .two-right .ping
+{
+    font-size:0.22rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing:0.01rem;
+    color: #B9BBBC;
+    font-weight: 600;
+    line-height: 0.4rem;
+
+}
+main ul li .right .two .two-right .wu
+{
+    font-size: 0.26rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #B9E1FF;
+    font-weight: 600;
+    margin-left: 0.12rem;
+}
+main ul li .right .two .two-right .wu span{
+    font-size: 0.26rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #36a8fe;
+    font-weight: 600;
+    margin-left: 0.12rem;
+    line-height: 0.4rem;
+}
+main ul li .right .three{
+    display: flex;
+    margin-bottom: 0.19rem;
+}
+main ul li .right .three .three-left
+{
+    width: 1.21rem;
+    height:0.35rem;
+    background-color: #E7F6FF;
+    border-radius:0.18rem;
+    font-size: 0.2rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #36a8fe;
+    text-align: center;
+    line-height: 0.35rem;
+    font-weight: 600;
+}
+main ul li .right .three .three-right
+{
+    width: 1.21rem;
+    height:0.35rem;
+    background-color: #E7F6FF;
+    border-radius:0.18rem;
+    font-size: 0.2rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #36a8fe;
+    text-align: center;
+    line-height: 0.35rem;
+    margin-left: 0.09rem;
+    font-weight: 600;
+}
+main ul li .right .four{
+    display: flex;
+    justify-content: space-between;
+}
+main ul li .right .four .four-left p
+{
+    font-size:0.18rem;
+    font-stretch: normal;
+    letter-spacing:0.01rem;
+    color: #AFB1B2;
+    font-weight: 600;
+
+}
+main ul li .right .four .four-left span
+{
+    font-size: 0.22rem;
+    font-stretch: normal;
+    letter-spacing:0.01rem;
+    color: #DADCDD;
+    font-weight: 600;
+}
+main ul li .right .four .four-left{
+    display: flex;
+}
+main ul li .right .four .four-right
+{
+    font-size:0.26rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #fbb548;
+    font-weight: 600;
+}
+/*列表结束*/
+
+
+
+/*块开始*/
+.kuai{
+    width: 100%;
+    /*height: 0;*/
+    height: 2.07rem;
+    background:white;
+    position: absolute;
+    top:2rem;
+    left: 0;
+    padding: 0 0.89rem;
+    display: none;
+}
+.kuai ul li{
+    width: 100%;
+    height: 0.69rem;
+    border-bottom: 0.01rem solid #f1f4f5;
+    line-height: 0.69rem;
+    font-size: 0.24rem;
+    font-weight:bold;
+    font-stretch: normal;
+    letter-spacing:0.01rem;
+    color: #000000;
+}
+.kuai ul li:nth-child(3){
+    border-bottom: none;
+}
+
+/*块结束*/
