@@ -445,6 +445,10 @@ footer .right{
     outline: none;
 
 }
+footer .right a{
+    color: #fff;
+
+}
 /*底部结束*/
 
 /*优惠券弹出框开始*/
