@@ -60,7 +60,7 @@
 <div class="line"></div>
 <!--底部开始-->
 <div class="foot">
-    <input type="text" placeholder="自定义金额">
+    <input type="text">
     <a href="personqrcz.html">
     <div class="right">确认充值</div>
     </a>
@@ -72,10 +72,18 @@
     let boxs = $(".box");
     let span = $(".box .price");
     let input = $("input");
+    input.attr({value:"自定义金额",color:"rgba(0,0,0,0.7)"});
+    input.focus(function(){ 
+        $(this).attr("value","");
+    }).blur(function(){
+        $(this).attr("value","自定义金额"); 
+    });
     boxs.click(function () {
         boxs.removeClass("active");
         $(this).addClass("active");
         let i = $(this).index();
         input.val(span.eq(i).html());
     })
+
+   
 </script>

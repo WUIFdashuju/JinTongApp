@@ -71,13 +71,13 @@
     position: absolute;
     right: 0.24rem;
     top:3.9rem;
-    display: block;
+    display: none;
 }
 .weixin .xia{
     position: absolute;
     right: 0.24rem;
     top:3.9rem;
-    display: none;
+    display: block;
 }
 .line{
     width: 7.02rem;
