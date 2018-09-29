@@ -144,6 +144,19 @@
     width: 0.32rem;
     height: 0.28rem;
 }
+.talkthree .cont .lines{
+    width: 2.74rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    margin-left: 0.2rem;
+}
+.talkthree .cont .lines .change{
+    width: 0.01rem;
+    height: 0.06rem;
+    border:0.01rem solid #fff;
+}
 .talkthree p{
     font-size: 0.2rem;
     color: #6ad1fe;

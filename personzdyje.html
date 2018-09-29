@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/personzdyje.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/personzdyje.js"></script>
     <title>自定义金额</title>
 </head>
 <body>
@@ -21,35 +23,38 @@
 <!--身体部分开始-->
 <div class="body">
     <div class="box" style="margin-bottom: 0.18rem;">
-        <p><span>50</span>元</p>
+        <p class="ey"><span class="mon">50</span>元</p>
         <p class="sale">售价<span class="price">49.8</span>元</p>
     </div>
-    <div class="box active"  style="margin-bottom: 0.18rem;" >
+    <div class="box"  style="margin-bottom: 0.18rem;" >
         <p class="ey"><span class="mon">100</span>元</p>
         <p class="sale">售价<span class="price">99.8</span>元</p>
     </div>
     <div class="box"  style="margin-bottom: 0.18rem;">
-        <p><span>200</span>元</p>
+        <p class="ey"><span class="mon">200</span>元</p>
         <p class="sale">售价<span class="price">198.8</span>元</p>
     </div>
-    <div class="box" style="position: relative;">
-        <p><span>300</span>元</p>
-        <p class="sale">售价<span class="price">49.8</span>元</p>
-        <img src="img/cjr16.png" alt="" style="position: absolute;right: 0.1rem;top:0.1rem;">
-    </div>
+    <div class="box" >
+    <p class="ey"><span class="mon">300</span>元</p>
+    <p class="sale">售价<span class="price">49.8</span>元</p>
+    <img src="img/cjr16.png" alt="" style="position: absolute;right: 5rem;top:2.8rem;" class="huangguan">
     <h1 style="color: #97c6e9;font-size: 0.2rem;position: absolute;top:3.9rem;left: 1.1rem;font-weight: bold;">白银会员</h1>
-    <div class="box" style="position: relative;">
-        <p><span>500</span>元</p>
-        <p class="sale">售价<span class="price">99.8</span>元</p>
-        <img src="img/cjr16.png" alt="" style="position: absolute;right: 0.1rem;top:0.1rem;">
     </div>
-    <h1  style="color: #97c6e9;font-size: 0.2rem;position: absolute;top:3.9rem;left: 3.4rem;font-weight: bold;">黄金会员</h1>
-    <div class="box" style="position: relative;">
-        <p><span>1000</span>元</p>
+
+    <div class="box" >
+        <p class="ey"><span class="mon">500</span>元</p>
+        <p class="sale">售价<span class="price">99.8</span>元</p>
+        <img src="img/cjr16.png" alt="" style="position: absolute;right: 2.7rem;top:2.8rem;" class="huangguan">
+        <h1  style="color: #97c6e9;font-size: 0.2rem;position: absolute;top:3.9rem;left: 3.4rem;font-weight: bold;">黄金会员</h1>
+    </div>
+
+    <div class="box" >
+        <p class="ey"><span class="mon">1000</span>元</p>
         <p class="sale">售价<span class="price">198.8</span>元</p>
-        <img src="img/cjr16.png" alt="" style="position: absolute;right: 0.1rem;top:0.1rem;">
+        <img src="img/cjr16.png" alt="" style="position: absolute;right: 0.3rem;top:2.8rem;" class="huangguan">
+        <h1  style="color: #97c6e9;font-size: 0.2rem;position: absolute;top:3.9rem;left: 5.8rem;font-weight: bold;">白金会员</h1>
     </div >
-    <h1  style="color: #97c6e9;font-size: 0.2rem;position: absolute;top:3.9rem;left: 5.8rem;font-weight: bold;">白金会员</h1>
+
 </div>
 <!--身体部分结束-->
 <div class="line"></div>
@@ -63,3 +68,14 @@
 <!--底部结束-->
 </body>
 </html>
+<script>
+    let boxs = $(".box");
+    let span = $(".box .price");
+    let input = $("input");
+    boxs.click(function () {
+        boxs.removeClass("active");
+        $(this).addClass("active");
+        let i = $(this).index();
+        input.val(span.eq(i).html());
+    })
+</script>

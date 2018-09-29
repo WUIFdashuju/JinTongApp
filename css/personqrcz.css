@@ -67,6 +67,18 @@
     font-weight: bolder;
     margin-left: 0.16rem;
 }
+.weixin .shang{
+    position: absolute;
+    right: 0.24rem;
+    top:3.9rem;
+    display: block;
+}
+.weixin .xia{
+    position: absolute;
+    right: 0.24rem;
+    top:3.9rem;
+    display: none;
+}
 .line{
     width: 7.02rem;
     height: 0.02rem;

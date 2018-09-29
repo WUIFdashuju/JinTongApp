@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/personkfzx.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/personkfzx.js"></script>
     <title>客服中心</title>
 </head>
 <body>
@@ -40,8 +42,38 @@
         </div>
         <div class="cont">
             <img src="img/cjr21.png" alt="">
+            <div class="lines">
+                <div class="change"></div>
+                <div class="change"></div>
+                <div class="change"></div>
+                <div class="change"></div>
+                <div class="change"></div>
+                <div class="change"></div>
+                <div class="change"></div>
+                <div class="change"></div>
+                <div class="change"></div>
+                <div class="change"></div>
+                <div class="change"></div>
+                <div class="change"></div>
+                <div class="change"></div>
+                <div class="change"></div>
+                <div class="change"></div>
+                <div class="change"></div>
+                <div class="change"></div>
+                <div class="change"></div>
+                <div class="change"></div>
+                <div class="change"></div>
+                <div class="change"></div>
+                <div class="change"></div>
+                <div class="change"></div>
+                <div class="change"></div>
+                <div class="change"></div>
+                <div class="change"></div>
+                <div class="change"></div>
+                <div class="change"></div>
+            </div>
         </div>
-        <p>01"43</p>
+        <p><span>0</span><span class="sec">1</span>"<span class="fir">42</span></p>
     </div>
 <!--对话部分结束-->
 <!--底部开始-->
@@ -53,3 +85,53 @@
 <!--底部结束-->
 </body>
 </html>
+<script>
+    let flag=0;
+    let minute=$(".talkthree p .sec");
+    let	second=$(".talkthree p .fir");
+    let minutes=minute.html();
+    let seconds=second.html();
+    console.log(minute,seconds,minutes);
+    t=setInterval(change());
+    $(".cont").click(function () {
+        console.log($(".cont"));
+        if (flag==0){
+            t1=setInterval("change()",130);
+            flag=1;
+            t2=setInterval("count()",1000);
+            return;
+        }
+        if (flag==1){
+            console.log(minutes, seconds);
+            flag=0;
+            clearInterval(t2);
+            clearInterval(t1);
+            return;
+        }
+    });
+    function count() {
+        seconds=second.html();
+        seconds--;
+        second.html(seconds);
+        minutes=minute.html();
+        if (seconds==-1&&minutes>0){
+            minutes--;
+            minute.html(minutes);
+            second.html(59);
+        }
+        if (seconds==0&&minutes==0){
+            clearInterval(t1);
+            clearInterval(t2);
+            second.html(42);
+            minute.html(1);
+            flag=0;
+            return flag;
+        }
+    }
+    function change() {
+        $(".change").each(function (i) {
+            let heights=Math.random()*0.36+0.06;
+            $(this).css("height",`${heights}rem`);
+        });
+    }
+</script>
