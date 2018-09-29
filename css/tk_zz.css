@@ -1,4 +1,3 @@
-/*顶部开始*/
 .title{
     width:100%;
     height: 1rem;
@@ -25,6 +24,9 @@ main{
     /*background: #4ebbfe;*/
     margin: 0.5rem 0.24rem;
 
+}
+.container{
+    margin: 0 0.24rem;
 }
 main .nav{
     width:100% ;
@@ -242,9 +244,7 @@ main .tj{
     background-blend-mode: normal, normal;
     box-shadow: 0px 4px 20px 0px rgba(55, 223, 116, 0.75);
     border-radius: 30px;
-    position: fixed;
-    bottom: 0.81rem;
-    left: 1.5rem;
+    margin:0.81rem auto;
 }
 main .tj p{
     font-size: 0.2rem;
@@ -252,4 +252,62 @@ main .tj p{
     color: #ffffff;
     line-height: 0.6rem;
     text-align: center;
+}
+.zz{
+    width:100%;
+    height:4.6rem;
+    background-color: #ffffff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    box-shadow: 0 0 10px 1000px rgba(35,35,42,0.89);
+}
+.zz .container{
+    margin: 0 0.24rem;
+}
+.zz .top{
+    width: 100%;
+    height: 0.94rem;
+    display: flex;
+    align-items: center;
+}
+.zz  .top p{
+    font-size: 0.2rem;
+    letter-spacing: 0.01rem;
+    color: #41b2fc;
+    margin: 0 auto;
+    line-height: 0.94rem;
+}
+.zz .top img{
+    width:0.24rem;
+    height: 0.24rem;
+    display: block;
+
+}
+.zz  .th{
+    width: 100%;
+    height: 0.94rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.zz  .th .left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.zz  .th .left img{
+    width: 0.2rem;
+    height: 0.2rem;
+    display: block;
+}
+.zz  .th .left span{
+    font-size: 0.24rem;
+    letter-spacing: 0.01rem;
+    color: #8a8c8d;
+}
+.zz .pcter{
+    width:4.5rem;
+    height: 1rem;
+    margin: 0.25rem auto 0rem;
 }
