@@ -393,3 +393,61 @@ footer .fukuan{
     color: #ffffff;
     font-size: 0.24rem;
 }
+.zz{
+    width:100%;
+    height:4.6rem;
+    background-color: #ffffff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    box-shadow: 0 0 10px 1000px rgba(35,35,42,0.89);
+}
+.zz .container{
+    margin: 0 0.24rem;
+}
+.zz .top{
+    width: 100%;
+    height: 0.94rem;
+    display: flex;
+    align-items: center;
+}
+.zz  .top p{
+    font-size: 0.2rem;
+    letter-spacing: 0.01rem;
+    color: #41b2fc;
+    margin: 0 auto;
+    line-height: 0.94rem;
+}
+.zz .top img{
+    width:0.24rem;
+    height: 0.24rem;
+    display: block;
+
+}
+.zz  .th{
+    width: 100%;
+    height: 0.94rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.zz  .th .left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.zz  .th .left img{
+    width: 0.2rem;
+    height: 0.2rem;
+    display: block;
+}
+.zz  .th .left span{
+    font-size: 0.24rem;
+    letter-spacing: 0.01rem;
+    color: #8a8c8d;
+}
+.zz .pcter{
+    width:4.5rem;
+    height: 1rem;
+    margin: 0.25rem auto 0rem;
+}
